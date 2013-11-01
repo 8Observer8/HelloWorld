@@ -1,0 +1,111 @@
+.ui-menu { 
+/*    overflow: hidden;*/
+    list-style: none;
+    margin: 0px auto;
+    display: table;
+    z-index: 1000;
+}
+
+.ui-menu .ui-menu {
+    overflow: visible !important;
+}
+
+.ui-menu > li { 
+    position: relative;
+    float: left;
+    display: block;
+    width: auto !important;
+}
+
+.ui-menu ul li {
+    position: relative;
+    display:block;
+    float:none;
+}
+
+.ui-menu ul li ul {
+    left:120px !important;
+    width:100%;
+}
+
+.ui-menu ul li ul li {
+    width:auto;
+}
+
+.ui-menu ul li ul li a {
+    float:left;
+}
+
+.ui-menu > li {
+    margin: 5px 5px !important;
+    padding: 0 0 !important;
+}
+
+.ui-menu > li > a { 
+    float: left;
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
+
+.ui-menu .ui-menu-icon { 
+    margin-top: 0.3em !important;
+}
+
+.ui-menu .ui-menu .ui-menu li { 
+    float: left;
+    display: block;
+}
+
+img {
+    height: 340px;
+    width: 300px;
+    box-shadow: rgba(0,0,0,0.2) 10px 10px;
+/*    top: 50%;
+    left: 50%;
+    margin-top: -140px;
+    margin-left: -150px;
+    position: fixed;*/
+}
+
+h1 {
+    font-family: cursive, Arial, sans-serif;
+    color: blue;
+    text-align: center;
+}
+
+body > a {
+    font-family: cursive, Arial, sans-serif;
+}
+
+body {
+    background: #FFFFFF;
+}
+
+a:link {
+    text-decoration: none;
+    color:#336699;
+}    /* unvisited link */
+
+a:visited {
+    color:#0000FF;
+} /* visited link */
+
+a:hover {
+    color:#FF0000;
+    font-weight: bold;
+}   /* mouse over link */
+
+a:active {
+    color:#669966;
+}  /* selected link */
+
+#list {
+    clear: both;
+    width: 750px;
+    margin: auto;
+}
+
+#brown {
+    color: brown;
+}
