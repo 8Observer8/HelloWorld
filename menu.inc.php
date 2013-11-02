@@ -18,7 +18,20 @@ require_once 'core.inc.php';
             </li>
 
             <li>
-                <a href="examples_cpp.php">C++</a>
+                <a href="#">C++</a>
+                <ul>
+                    <li>
+                        <a href="examples_cpp.php">Примеры</a>
+                    </li>
+
+                    <li>
+                        <a href="algorithms_cpp.php">Алгоритмы</a>
+                    </li>
+
+                    <li>
+                        <a href="solutions_cpp.php">Решения</a>
+                    </li>
+                </ul>
             </li>
 
             <li>
