@@ -48,6 +48,74 @@ and open the template in the editor.
                     </a>
                 </p>
             </div>
+
+            <h3>0003 Пятью пять - двадцать пять!</h3>
+            <div>
+                <p>
+                    <strong id="brown">Исходники:</strong>
+                    <a href="https://github.com/8Observer8/acmp_0003_Square_of_the_number">
+                        https://github.com/8Observer8/acmp_0003_Square_of_the_number
+                    </a>
+                </p>
+
+                <p>
+                    <strong id="brown">Источник:</strong>
+                    <a href="http://acmp.ru/?main=task&id_task=3">
+                        http://acmp.ru/?main=task&id_task=3
+                    </a>
+                </p>
+            </div>
+
+            <h3>0004 Игра</h3>
+            <div>
+                <p>
+                    <strong id="brown">Исходники:</strong>
+                    <a href="https://github.com/8Observer8/acmp_0004_Game">
+                        https://github.com/8Observer8/acmp_0004_Game
+                    </a>
+                </p>
+
+                <p>
+                    <strong id="brown">Источник:</strong>
+                    <a href="http://acmp.ru/?main=task&id_task=4">
+                        http://acmp.ru/?main=task&id_task=4
+                    </a>
+                </p>
+            </div>
+
+            <h3>0005 Статистика</h3>
+            <div>
+                <p>
+                    <strong id="brown">Исходники:</strong>
+                    <a href="https://github.com/8Observer8/acmp_0005_Statistics">
+                        https://github.com/8Observer8/acmp_0005_Statistics
+                    </a>
+                </p>
+
+                <p>
+                    <strong id="brown">Источник:</strong>
+                    <a href="http://acmp.ru/?main=task&id_task=5">
+                        http://acmp.ru/?main=task&id_task=5
+                    </a>
+                </p>
+            </div>
+
+            <h3>0092 Журавлики</h3>
+            <div>
+                <p>
+                    <strong id="brown">Исходники:</strong>
+                    <a href="https://github.com/8Observer8/acmp_0092_Cranes">
+                        https://github.com/8Observer8/acmp_0092_Cranes
+                    </a>
+                </p>
+
+                <p>
+                    <strong id="brown">Источник:</strong>
+                    <a href="http://acmp.ru/index.asp?main=task&id_task=92">
+                        http://acmp.ru/index.asp?main=task&id_task=92
+                    </a>
+                </p>
+            </div>
         </div>
     </body>
 </html>

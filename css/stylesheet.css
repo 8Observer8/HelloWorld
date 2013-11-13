@@ -20,32 +20,40 @@
 .ui-menu ul li {
     position: relative;
     display:block;
-    float:none;
+/*    float:none;*/
 }
 
 .ui-menu ul li ul {
-    left:120px !important;
-    width:100%;
+/*    left:120px !important;*/
+/*    width:100%;*/
 }
 
 .ui-menu ul li ul li {
-    width:auto;
+    position: relative;
+    float: left;
+    display: block;
+    width: auto !important;
 }
 
 .ui-menu ul li ul li a {
-    float:left;
+    position: relative;
+    float: left;
+    display: block;
+    width: auto !important;
 }
 
 .ui-menu > li {
-    margin: 5px 5px !important;
-    padding: 0 0 !important;
+    position: relative;
+    float: left;
+    display: block;
+    width: auto !important;
 }
 
 .ui-menu > li > a { 
+    position: relative;
     float: left;
     display: block;
-    clear: both;
-    overflow: hidden;
+    width: auto !important;
 }
 
 .ui-menu .ui-menu-icon { 
@@ -53,8 +61,10 @@
 }
 
 .ui-menu .ui-menu .ui-menu li { 
+    position: relative;
     float: left;
     display: block;
+    width: auto !important;
 }
 
 img {
