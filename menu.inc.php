@@ -10,11 +10,29 @@ require_once 'core.inc.php';
         <a href="#">Примеры</a>
         <ul>
             <li>
-                <a href="examples_php.php">PHP</a>
+                <a href="#">PHP</a>
+                <ul>
+                    <li>
+                        <a href="examples_php.php">Примеры</a>
+                    </li>
+                    
+                    <li>
+                        <a href="Alex_php.php">Уроки по PHP от Alex'а</a>
+                    </li>
+                </ul>
             </li>
 
             <li>
-                <a href="examples_jquery.php">jQuery</a>
+                <a href="#">jQuery</a>
+                <ul>
+                    <li>
+                        <a href="examples_jquery.php">Примеры</a>
+                    </li>
+                    
+                    <li>
+                        <a href="Alex_jquery.php">Уроки по jQuery от Alex'а</a>
+                    </li>
+                </ul>
             </li>
 
             <li>
@@ -40,10 +58,11 @@ require_once 'core.inc.php';
                     <li>
                         <a href="examples_qt.php">Примеры на Qt</a>
                     </li>
-                </ul>
-                <ul>
                     <li>
                         <a href="bryan_qt.php">Уроки по Qt от Bryan'a</a>
+                    </li>
+                    <li>
+                        <a href="qt_books.php">Книги по Qt</a>
                     </li>
                 </ul>
             </li>

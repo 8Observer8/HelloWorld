@@ -25,6 +25,16 @@ and open the template in the editor.
                     </a>
                 </p>
             </div>
+
+            <h3>Список друзей на vk.com с кнопкой "Refresh" ("Обновить")</h3>
+            <div>
+                <p>
+                    <strong id="brown">Исходники:</strong>
+                    <a href="https://github.com/8Observer8/vk_friends_full_list_with_refresh">
+                        https://github.com/8Observer8/vk_friends_full_list_with_refresh
+                    </a>
+                </p>
+            </div>
         </div>
     </body>
 </html>
