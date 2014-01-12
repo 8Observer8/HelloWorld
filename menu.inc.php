@@ -59,7 +59,7 @@ require_once 'core.inc.php';
                         <a href="examples_qt.php">Примеры на Qt</a>
                     </li>
                     <li>
-                        <a href="bryan_qt.php">Уроки по Qt от Bryan'a</a>
+                        <a href="Bryan_qt.php">Уроки по Qt от Bryan'a</a>
                     </li>
                     <li>
                         <a href="qt_books.php">Книги по Qt</a>
@@ -91,4 +91,16 @@ require_once 'core.inc.php';
                 <li><a href="api_windows_examples.php">Примеры API Windows на C</a></li>
             </ul>
         </li>-->
+    
+    <li>
+        <a href="#">Пошаговые инструкции</a>
+        <ul>
+            <li><a href="tdd_cpp.php">Разработка ПО на C++ по методике TDD</a></li>
+            <li><a href="static_qt.php">Как собрать статически Qt 5.2.0 на Windows XP</a></li>
+        </ul>
+    </li>
+    
+    <li>
+        <a href="favorite_forums.php">Любимые форумы</a>
+    </li>
 </ul>

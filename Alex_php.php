@@ -1982,12 +1982,12 @@ and open the template in the editor.
                 </p>
             </div>
 
-            <h3>148, 149, 150 - More Validation (Part 1, 2, 3)</h3>
+            <h3>148, 149, 150 - More Validation (Part 1, 2, 3) Форма регистрации и вход на сайт (login)</h3>
             <div>
                 <p>
                     <strong id="brown">Исходники:</strong>
-                    <a href="">
-                        
+                    <a href="https://github.com/8Observer8/150_More_Validation_Part_3">
+                        https://github.com/8Observer8/150_More_Validation_Part_3
                     </a>
                 </p>
 
@@ -2013,12 +2013,12 @@ and open the template in the editor.
                 </p>
             </div>
 
-            <h3>151, 152, 153, 154 - SQL Injection (Part 1, 2, 3, 4)</h3>
+            <h3>151, 152, 153, 154, 155 - SQL Injection (Part 1, 2, 3, 4, 5). Проверка имени пользователя и пароля по базе данных.</h3>
             <div>
                 <p>
                     <strong id="brown">Исходники:</strong>
-                    <a href="">
-                        
+                    <a href="https://github.com/8Observer8/155_SQL_Injection_Part_5">
+                        https://github.com/8Observer8/155_SQL_Injection_Part_5
                     </a>
                 </p>
 
@@ -2049,17 +2049,17 @@ and open the template in the editor.
                         http://thenewboston.org/watch.php?cat=11&number=154
                     </a>
                 </p>
+
+                <p>
+                    <strong id="brown">Источник (часть 5):</strong>
+                    <a href="http://thenewboston.org/watch.php?cat=11&number=155">
+                        http://thenewboston.org/watch.php?cat=11&number=155
+                    </a>
+                </p>
             </div>
 
             <h3>156 - Introduction to GD</h3>
             <div>
-                <p>
-                    <strong id="brown">Исходники:</strong>
-                    <a href="">
-                        
-                    </a>
-                </p>
-
                 <p>
                     <strong id="brown">Источник:</strong>
                     <a href="http://thenewboston.org/watch.php?cat=11&number=156">
@@ -2068,12 +2068,12 @@ and open the template in the editor.
                 </p>
             </div>
 
-            <h3>157, 158, 159, 160 - Protecting Email with String to Image (Part 1, 2, 3, 4)</h3>
+            <h3>157, 158, 159, 160 - Protecting Email with String to Image (Part 1, 2, 3, 4). Создание картинки из адреса электронной почты, извлечённого из базы данных.</h3>
             <div>
                 <p>
                     <strong id="brown">Исходники:</strong>
-                    <a href="">
-                        
+                    <a href="https://github.com/8Observer8/160_Protecting_Email_with_String_to_Image_Part_4">
+                        https://github.com/8Observer8/160_Protecting_Email_with_String_to_Image_Part_4
                     </a>
                 </p>
 
@@ -2106,12 +2106,12 @@ and open the template in the editor.
                 </p>
             </div>
 
-            <h3>161, 162, 163 - Watermarking Images (Part 1, 2, 3)</h3>
+            <h3>161, 162, 163 - Watermarking Images (Part 1, 2, 3). Создание водяного знака на рисунке</h3>
             <div>
                 <p>
                     <strong id="brown">Исходники:</strong>
-                    <a href="">
-                        
+                    <a href="https://github.com/8Observer8/163_Watermarking_Images_Part_3">
+                        https://github.com/8Observer8/163_Watermarking_Images_Part_3
                     </a>
                 </p>
 
@@ -2141,8 +2141,8 @@ and open the template in the editor.
             <div>
                 <p>
                     <strong id="brown">Исходники:</strong>
-                    <a href="">
-                        
+                    <a href="https://github.com/8Observer8/166_Creating_Captcha_Image_Security_Part_3">
+                        https://github.com/8Observer8/166_Creating_Captcha_Image_Security_Part_3
                     </a>
                 </p>
 
@@ -2175,12 +2175,12 @@ and open the template in the editor.
                 </p>
             </div>
 
-            <h3>168, 169, 170 - Scaling Down Images to Thumbnails (Part 1, 2, 3)</h3>
+            <h3>168, 169, 170 - Scaling Down Images to Thumbnails (Part 1, 2, 3). Создание "миниатюры" - уменьшенной копии рисунка.</h3>
             <div>
                 <p>
                     <strong id="brown">Исходники:</strong>
-                    <a href="">
-                        
+                    <a href="https://github.com/8Observer8/170_Scaling_Down_Images_to_Thumbnails_Part_3">
+                        https://github.com/8Observer8/170_Scaling_Down_Images_to_Thumbnails_Part_3
                     </a>
                 </p>
 
@@ -2209,13 +2209,6 @@ and open the template in the editor.
             <h3>171 - Introduction to AJAX</h3>
             <div>
                 <p>
-                    <strong id="brown">Исходники:</strong>
-                    <a href="">
-                        
-                    </a>
-                </p>
-
-                <p>
                     <strong id="brown">Источник:</strong>
                     <a href="http://thenewboston.org/watch.php?cat=11&number=171">
                         http://thenewboston.org/watch.php?cat=11&number=171
@@ -2223,12 +2216,12 @@ and open the template in the editor.
                 </p>
             </div>
 
-            <h3>172, 173, 174 - Loading in file Contents to a DIV (Part 1, 2, 3)</h3>
+            <h3>172, 173, 174 - Loading in file Contents to a DIV (Part 1, 2, 3). Загружаем текст при нажатии на кнопку с помощью Ajax.</h3>
             <div>
                 <p>
                     <strong id="brown">Исходники:</strong>
-                    <a href="">
-                        
+                    <a href="https://github.com/8Observer8/174_Loading_in_file_Contents_to_a_DIV_Part_3">
+                        https://github.com/8Observer8/174_Loading_in_file_Contents_to_a_DIV_Part_3
                     </a>
                 </p>
 
@@ -2254,43 +2247,12 @@ and open the template in the editor.
                 </p>
             </div>
 
-            <h3>172, 173, 174 - Loading in file Contents to a DIV (Part 1, 2, 3)</h3>
+            <h3>175, 176, 177, 178, 179 - Auto Suggest Application (Part 1, 2, 3, 4, 5). Авто-подсказка для поля ввода на Ajax.</h3>
             <div>
                 <p>
                     <strong id="brown">Исходники:</strong>
-                    <a href="">
-                        
-                    </a>
-                </p>
-
-                <p>
-                    <strong id="brown">Источник (часть 1):</strong>
-                    <a href="http://thenewboston.org/watch.php?cat=11&number=172">
-                        http://thenewboston.org/watch.php?cat=11&number=172
-                    </a>
-                </p>
-
-                <p>
-                    <strong id="brown">Источник (часть 2):</strong>
-                    <a href="http://thenewboston.org/watch.php?cat=11&number=173">
-                        http://thenewboston.org/watch.php?cat=11&number=173
-                    </a>
-                </p>
-
-                <p>
-                    <strong id="brown">Источник (часть 3):</strong>
-                    <a href="http://thenewboston.org/watch.php?cat=11&number=174">
-                        http://thenewboston.org/watch.php?cat=11&number=174
-                    </a>
-                </p>
-            </div>
-
-            <h3>175, 176, 177, 178, 179 - Auto Suggest Application (Part 1, 2, 3, 4, 5)</h3>
-            <div>
-                <p>
-                    <strong id="brown">Исходники:</strong>
-                    <a href="">
-                        
+                    <a href="https://github.com/8Observer8/179_Auto_Suggest_Application_Part_5">
+                        https://github.com/8Observer8/179_Auto_Suggest_Application_Part_5
                     </a>
                 </p>
 
@@ -2330,12 +2292,12 @@ and open the template in the editor.
                 </p>
             </div>
 
-            <h3>180, 181, 182, 183, 184 - POSTing Data (Part 1, 2, 3, 4, 5)</h3>
+            <h3>180, 181, 182, 183, 184 - POSTing Data (Part 1, 2, 3, 4, 5). Отправляем строку в базу данных с помощью Ajax.</h3>
             <div>
                 <p>
                     <strong id="brown">Исходники:</strong>
-                    <a href="">
-                        
+                    <a href="https://github.com/8Observer8/184_POSTing_Data_Part_5">
+                        https://github.com/8Observer8/184_POSTing_Data_Part_5
                     </a>
                 </p>
 
@@ -2368,12 +2330,12 @@ and open the template in the editor.
                 </p>
             </div>
 
-            <h3>185 - Throwing an Exception</h3>
+            <h3>185 - Throwing an Exception. Выбрасываем из функции экземпляр исключения Exception. Исключение не обрабатываем, поэтому получаем сообщение об ошибке.</h3>
             <div>
                 <p>
                     <strong id="brown">Исходники:</strong>
-                    <a href="">
-                        
+                    <a href="https://github.com/8Observer8/185_Throwing_an_Exception">
+                        https://github.com/8Observer8/185_Throwing_an_Exception
                     </a>
                 </p>
 
@@ -2385,12 +2347,12 @@ and open the template in the editor.
                 </p>
             </div>
 
-            <h3>186 - try, throw, catch</h3>
+            <h3>186 - try, throw, catch. Выбрасываем экземпляр Exception с сообщением и показываем сообение с помощью getMessage().</h3>
             <div>
                 <p>
                     <strong id="brown">Исходники:</strong>
-                    <a href="">
-                        
+                    <a href="https://github.com/8Observer8/186_try-_throw-_catch">
+                        https://github.com/8Observer8/186_try-_throw-_catch
                     </a>
                 </p>
 
@@ -2402,12 +2364,12 @@ and open the template in the editor.
                 </p>
             </div>
 
-            <h3>187 - Custom Exceptions</h3>
+            <h3>187 - Custom Exceptions. Выбрасываем свои экземпляры ислючений унаследованные от Exception и показываем сообщения, переданные объяктам исключения.</h3>
             <div>
                 <p>
                     <strong id="brown">Исходники:</strong>
-                    <a href="">
-                        
+                    <a href="https://github.com/8Observer8/187_Custom_Exceptions">
+                        https://github.com/8Observer8/187_Custom_Exceptions
                     </a>
                 </p>
 
@@ -2419,12 +2381,12 @@ and open the template in the editor.
                 </p>
             </div>
 
-            <h3>188 - Custom Error Messages</h3>
+            <h3>188 - Custom Error Messages. Наследуем от Exception метод showSpecific в свои собственные классы исключений. Выводим номер строки и имя файла, где произошло исключение.</h3>
             <div>
                 <p>
                     <strong id="brown">Исходники:</strong>
-                    <a href="">
-                        
+                    <a href="https://github.com/8Observer8/188_Custom_Error_Messages">
+                        https://github.com/8Observer8/188_Custom_Error_Messages
                     </a>
                 </p>
 
@@ -2439,13 +2401,6 @@ and open the template in the editor.
             <h3>189 - Introduction to OOP</h3>
             <div>
                 <p>
-                    <strong id="brown">Исходники:</strong>
-                    <a href="">
-                        
-                    </a>
-                </p>
-
-                <p>
                     <strong id="brown">Источник:</strong>
                     <a href="http://thenewboston.org/watch.php?cat=11&number=189">
                         http://thenewboston.org/watch.php?cat=11&number=189
@@ -2453,12 +2408,12 @@ and open the template in the editor.
                 </p>
             </div>
 
-            <h3>190 - Classes, Properties, and Methods</h3>
+            <h3>190 - Classes, Properties, and Methods. Пример метода и переменной класса.</h3>
             <div>
                 <p>
                     <strong id="brown">Исходники:</strong>
-                    <a href="">
-                        
+                    <a href="https://github.com/8Observer8/190_Classes-_Properties-_and_Methods">
+                        https://github.com/8Observer8/190_Classes-_Properties-_and_Methods
                     </a>
                 </p>
 
@@ -2470,12 +2425,12 @@ and open the template in the editor.
                 </p>
             </div>
 
-            <h3>191 - Return a Property Value. Возвращаем переменную класса из метода класса</h3>
+            <h3>191 - Return a Property Value. Возвращаем переменную класса из метода класса.</h3>
             <div>
                 <p>
                     <strong id="brown">Исходники:</strong>
-                    <a href="">
-                        
+                    <a href="https://github.com/8Observer8/191_Return_a_Property_Value">
+                        https://github.com/8Observer8/191_Return_a_Property_Value
                     </a>
                 </p>
 
@@ -2487,7 +2442,7 @@ and open the template in the editor.
                 </p>
             </div>
 
-            <h3>192 - Changing a Property Value. Изменение переменной класса из метода класса</h3>
+            <h3>192 - Changing a Property Value. Изменение переменной класса из метода класса.</h3>
             <div>
                 <p>
                     <strong id="brown">Исходники:</strong>
@@ -2504,7 +2459,7 @@ and open the template in the editor.
                 </p>
             </div>
 
-            <h3>193 - public, private, and protected. Доступ к переменным public, private и protected</h3>
+            <h3>193 - public, private, and protected. Доступ к переменным public, private и protected.</h3>
             <div>
                 <p>
                     <strong id="brown">Исходники:</strong>
@@ -2538,7 +2493,7 @@ and open the template in the editor.
                 </p>
             </div>
 
-            <h3>195 - Class Constructor. Пример конструктора и вызова метода из конструктора</h3>
+            <h3>195 - Class Constructor. Пример конструктора и вызова метода из конструктора.</h3>
             <div>
                 <p>
                     <strong id="brown">Исходники:</strong>
@@ -2555,7 +2510,7 @@ and open the template in the editor.
                 </p>
             </div>
 
-            <h3>196 - Multiple Instances of Classes. Пример создания нескольких экземпляров класса</h3>
+            <h3>196 - Multiple Instances of Classes. Пример создания нескольких экземпляров класса.</h3>
             <div>
                 <p>
                     <strong id="brown">Исходники:</strong>
@@ -2613,7 +2568,7 @@ and open the template in the editor.
                 </p>
             </div>
 
-            <h3>200 - Final PHP Video!!! Представлен класс DatabaseConnect с конструктором и методом connect</h3>
+            <h3>200 - Final PHP Video!!! Представлен класс DatabaseConnect с конструктором и методом connect.</h3>
             <div>
                 <p>
                     <strong id="brown">Исходники:</strong>

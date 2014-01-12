@@ -26,7 +26,7 @@ and open the template in the editor.
 
             <tr>
                 <td>
-                    <img src="img/m2kIlhFAYQE.jpg" />
+                    <img id="main_image" src="img/m2kIlhFAYQE.jpg" />
                 </td>
             </tr>
         </table>
