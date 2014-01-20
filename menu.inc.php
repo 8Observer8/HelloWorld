@@ -97,9 +97,17 @@ require_once 'core.inc.php';
         <ul>
             <li><a href="tdd_cpp.php">Разработка ПО на C++ по методике TDD</a></li>
             <li><a href="static_qt.php">Как собрать статически Qt 5.2.0 на Windows XP</a></li>
+            <li><a href="git.php">Работа с Git</a></li>
         </ul>
     </li>
     
+    <li>
+        <a href="#">Ресурсы</a>
+        <ul>
+            <li><a href="dev_books.php">Книги по разработке ПО</a></li>
+        </ul>
+    </li>
+
     <li>
         <a href="favorite_forums.php">Любимые форумы</a>
     </li>
