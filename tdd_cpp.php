@@ -7,7 +7,7 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Разработка ПО на C++ по методике TDD</title>
+        <title>Создание юнит-тестов на C++ (TDD)</title>
     </head>
     <body>
         <?php
@@ -15,7 +15,7 @@ and open the template in the editor.
         require 'menu.inc.php';
         ?>
 
-        <h1>Разработка ПО на C++ по методике TDD</h1>
+        <h1>Создание юнит-тестов на C++. Разработка ПО на C++ по методике TDD (разработка ПО через тестирование)</h1>
 
         <p>Принцип TDD (test-driven development) - сначала пишем тесты для пустого модуля (модуль - это функция или класс), а потом реализацию для этого модуля.</a></p>
 
