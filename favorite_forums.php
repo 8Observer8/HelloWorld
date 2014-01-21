@@ -40,7 +40,7 @@ and open the template in the editor.
         <p><strong>Мой ник:</strong> 8Observer8</p>
         <p><strong>Мой профиль:</strong> <a href="http://www.qtcentre.org/members/41132-8Observer8">http://www.qtcentre.org/members/41132-8Observer8</a></p>
 
-        <h2>Зарубежный web разработчиков</h2>
+        <h2>Зарубежный форум web разработчиков</h2>
         <p><strong>Форум:</strong> <a href="http://www.sitepoint.com/forums/">http://www.sitepoint.com/forums/</a></p>
         <p><strong>Мой ник:</strong> 8Observer8</p>
         <p><strong>Мой профиль:</strong> <a href="http://www.sitepoint.com/forums/member.php?830016-8Observer8">http://www.sitepoint.com/forums/member.php?830016-8Observer8</a></p>
