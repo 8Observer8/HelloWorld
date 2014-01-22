@@ -37,6 +37,25 @@ and open the template in the editor.
             </ul>
             <li><strong>Примечание:</strong> имя, электронная почта и окончания строк указываются один раз после установки Git</li>
             
+            <p>Из консоли переходим в папку проекта. Допустим, что у нас в папке проекта один файл "main.cpp"</p>
+            
+            <li>git init</li>
+            <li>git add main.cpp</li>
+            <li>git commit -m "First Commit" main.cpp</li>
+            <li>git branch</li>
+            <li>git remote -v</li>
+            <li>git push https://github.com/8Observer8/HelloGit.git refs/heads/master:refs/heads/master</li>
+            <li>git branch --set-upstream-to origin/master master</li>
+            
+            <p>Проект сохранён на https://github.com/</p>
+            <p>Произведём изменения в файле проект, закомментируем их и сохраним эти измениния на https://github.com/</p>
+            
+            <li>git add main.cpp</li>
+            <li>git commit -m "Дабавил строку для вывода \"Hello, World!\" на экран" main.cpp</li>
+            <li>git branch</li>
+            <li>git remote -v</li>
+            <li>git push https://github.com/8Observer8/HelloGit.git refs/heads/master:refs/heads/master</li>
+
         </ul>
         
         <h3>Полезные ссылки</h3>

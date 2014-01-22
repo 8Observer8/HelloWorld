@@ -16,6 +16,16 @@ and open the template in the editor.
         ?>
         <h1>Примеры на Qt</h1>
         <div id="list">
+            <h3>Консольный ввод/вывод текста</h3>
+            <div>
+                <p>
+                    <strong id="brown">Исходники:</strong>
+                    <a href="https://github.com/8Observer8/ConsoleInputOutput">
+                        https://github.com/8Observer8/ConsoleInputOutput
+                    </a>
+                </p>
+            </div>
+            
             <h3>Список друзей на vk.com</h3>
             <div>
                 <p>
