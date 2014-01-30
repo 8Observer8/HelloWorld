@@ -100,6 +100,7 @@ require_once 'core.inc.php';
             <li><a href="tdd_qt.php">Создание юнит-тестов на Qt C++ (TDD)</a></li>
             <li><a href="static_qt.php">Инструкция для сборки приложений на Qt в один exe без зависимостей</a></li>
             <li><a href="git.php">Работа с Git</a></li>
+<!--            <li><a href="">Список дополнительных инструкций</a></li>-->
         </ul>
     </li>
     

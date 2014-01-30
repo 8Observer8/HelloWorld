@@ -25,7 +25,47 @@ and open the template in the editor.
                     </a>
                 </p>
             </div>
-            
+
+            <h3>Реализация сервера для чата</h3>
+            <div>
+                <p>
+                    <strong id="brown">Исходники:</strong>
+                    <a href="https://github.com/8Observer8/MyChatServer">
+                        https://github.com/8Observer8/MyChatServer
+                    </a>
+                </p>
+            </div>
+
+            <h3>Реализация клиента для чата</h3>
+            <div>
+                <p>
+                    <strong id="brown">Исходники:</strong>
+                    <a href="https://github.com/8Observer8/MyChatClient">
+                        https://github.com/8Observer8/MyChatClient
+                    </a>
+                </p>
+            </div>
+
+            <!--            <h3>Запись и чтение бинарного файла</h3>
+            <div>
+                <p>
+                    <strong id="brown">Исходники:</strong>
+                    <a href="">
+                        
+                    </a>
+                </p>
+            </div>
+
+            <h3>Запись и чтение текстового файла</h3>
+            <div>
+                <p>
+                    <strong id="brown">Исходники:</strong>
+                    <a href="">
+                        
+                    </a>
+                </p>
+            </div>-->
+
             <h3>Список друзей на vk.com</h3>
             <div>
                 <p>

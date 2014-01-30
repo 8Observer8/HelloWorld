@@ -37,21 +37,36 @@ and open the template in the editor.
             </ul>
             <li><strong>Примечание:</strong> имя, электронная почта и окончания строк указываются один раз после установки Git</li>
             
-            <p>Из консоли переходим в папку проекта. Допустим, что у нас в папке проекта один файл "main.cpp"</p>
+            <p>Для работы с консолью, рекомендую скачать и установить Far Manager: <a href="http://www.farmanager.com/download.php">http://www.farmanager.com/download.php</a></p>
+            
+            <li>запускаем Far Manager</li>
+            
+            <li>с помощью Far'а переходим в папку проекта, файлы которого хотим сохранить на удалённый сервер</li>
+            
+            <p>Допустим у нас в папке с проектом лежат три файла: main.cpp, person.h, person.cpp</p>
+            
+            <p><strong>Примечание:</strong> чтобы в Far'е переключаться между новигацией по папкам и окном вывода консоли, нужно нажимать: Ctrl+O</p>
+
+            <li>нажимаем Ctlr+O</li>
+            
+            <li>последовательно вводим следующие команды:</li>
             
             <li>git init</li>
-            <li>git add main.cpp</li>
-            <li>git commit -m "First Commit" main.cpp</li>
+            <li>git add main.cpp person.h, person.cpp</li>
+            <li>git commit -m "Мой первый комментарий" main.cpp person.h person.cpp</li>
             <li>git branch</li>
             <li>git remote -v</li>
+            
+            <p><strong>Примечание:</strong> при вводе следующей команду нужно ввести ссылку на Ваш удалённый репозитарий</p>
+            
             <li>git push https://github.com/8Observer8/HelloGit.git refs/heads/master:refs/heads/master</li>
-            <li>git branch --set-upstream-to origin/master master</li>
+<!--            <li>git branch --set-upstream-to origin/master master</li>-->
             
             <p>Проект сохранён на https://github.com/</p>
             <p>Произведём изменения в файле проект, закомментируем их и сохраним эти измениния на https://github.com/</p>
             
             <li>git add main.cpp</li>
-            <li>git commit -m "Дабавил строку для вывода \"Hello, World!\" на экран" main.cpp</li>
+            <li>git commit -m "Добавил строку для вывода \"Hello, World!\" на экран" main.cpp</li>
             <li>git branch</li>
             <li>git remote -v</li>
             <li>git push https://github.com/8Observer8/HelloGit.git refs/heads/master:refs/heads/master</li>
