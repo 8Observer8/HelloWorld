@@ -114,4 +114,8 @@ require_once 'core.inc.php';
     <li>
         <a href="favorite_forums.php">Любимые форумы</a>
     </li>
+
+    <li>
+        <a href="http://qtobserver.freeoda.com/">Английская версия сайта</a>
+    </li>
 </ul>
