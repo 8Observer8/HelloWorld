@@ -150,7 +150,12 @@ and open the template in the editor.
             <p>Новая ветка сохранена на <a href="https://github.com/">https://github.com/</a></p>
         </ul>
 
-        <h3>Полезные ссылки</h3>
         <p>Подробное описание работы с Git: <a href="http://githowto.com/ru/">http://githowto.com/ru/</a></p>
+
+        <p>Обратная связь: 8observer8@gmail.com</p>
+        <p>Вопросы и комментарии пишите в моей теме: <a href="http://www.prog.org.ru/topic_26393_0.html">http://www.prog.org.ru/topic_26393_0.html</a></p>
+        <p>Материальная благодарность:</p>
+        <p>Яндекс Деньги: 410011677695050</p>
+        <p>WebMoney (WMID): 416161350356</p>
     </body>
 </html>
