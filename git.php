@@ -144,7 +144,7 @@ and open the template in the editor.
                 <li>git push https://github.com/8Observer8/HelloGit.git refs/heads/MyStyle:refs/heads/MyStyle</li>
             </ul>
 
-            <li>Примечание. Обратите внимание, что в предыдущей команде мы написали имя текущей ветки: refs/heads/MyStyle:refs/heads/MyStyle</li>
+            <p>Примечание. Обратите внимание, что в предыдущей команде мы написали имя текущей ветки: refs/heads/MyStyle:refs/heads/MyStyle</p>
 
             <li>вводим логин и пароль</li>
             <p>Новая ветка сохранена на <a href="https://github.com/">https://github.com/</a></p>
