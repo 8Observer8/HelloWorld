@@ -137,7 +137,7 @@ and open the template in the editor.
 
             <li>git commit -am "Удалили: shape.cpp circle.cpp. Добавили: rectangle.h. Изменили что-либо в: main.cpp, shape.h, circle.h, rectangle.h"</li>
 
-            <li>сохраним нашу новую ветку на удалённый репозитарий:</li>
+            <p>Сохраним нашу новую ветку на удалённый репозитарий:</p>
             <ul>
                 <li>git branch</li>
                 <li>git remote -v</li>
