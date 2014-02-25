@@ -116,6 +116,6 @@ require_once 'core.inc.php';
     </li>
 
     <li>
-        <a href="http://qtobserver.freeoda.com/">Английская версия сайта</a>
+        <a href="http://qtobserver.freeoda.com/">English Version</a>
     </li>
 </ul>
