@@ -325,6 +325,6 @@ int less_or_more(int first, int second) {
     <p>Вопросы и комментарии пишите в моей теме: <a href="http://programmersforum.ru/showthread.php?t=225824">http://programmersforum.ru/showthread.php?t=225824</a></p>
     <p>Материальная благодарность:</p>
     <p>Яндекс Деньги: 410011677695050</p>
-    <p>WebMoney (WMID): 416161350356</p>
+    <p>WebMoney (WMR): R302523642986</p>
 </body>
 </html>

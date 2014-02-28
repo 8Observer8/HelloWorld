@@ -74,7 +74,7 @@ require_once 'core.inc.php';
             <li><a href="EnglishExpressions.php">Английские выражения</a></li>
             <li><a href="AssimilEasyEnglish.php">Английский (Assimil)</a></li>
             <li><a href="YanaGrausova.php">Ссылки на видео Яны Граусовой</a></li>
-            <!--            <li><a href="tense_table.php">Таблицы времён</a></li>-->
+            <li><a href="tense_table.php">Таблицы времён</a></li>
         </ul>
     </li>
     <!--    <li>

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <!--
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
@@ -52,7 +52,7 @@ and open the template in the editor.
             <li>в корне проекта создаём файл: .gitignore</li>
             <li>открываем файл .gitignore и добавляем в него названия файлов, которые мы не хотим добавлять под контроль git, к примеру:</li>
             <p>
-                *.user.pro<br />
+                *pro.user<br />
                 *.txt
             </p>
             <li>вводим команды:</li>
@@ -156,6 +156,6 @@ and open the template in the editor.
         <p>Вопросы и комментарии пишите в моей теме: <a href="http://www.prog.org.ru/topic_26393_0.html">http://www.prog.org.ru/topic_26393_0.html</a></p>
         <p>Материальная благодарность:</p>
         <p>Яндекс Деньги: 410011677695050</p>
-        <p>WebMoney (WMID): 416161350356</p>
+        <p>WebMoney (WMR): R302523642986</p>
     </body>
 </html>
