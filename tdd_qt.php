@@ -25,112 +25,210 @@ and open the template in the editor.
     <li>демонстрировать, что функциональность реализована, как это и требовалось (заказчику, пользователю и\или самому себе)</li>
     <li>проводить рефакторинг (усовершенствовать код с целью оптимизации и/или для улучшения читабельности) без опасения нарушения функциональности</li>
 
-    <li>скачиваем и устанавливаем "Qt 5.2.0 for Windows 32-bit (MinGW 4.8, OpenGL, 689 MB)" <a href="http://qt-project.org/downloads">http://qt-project.org/downloads</a></li>
-
-    <li>запускаем Qt Creator</li>
-
-    <li>если у Вас Qt Creator на русском, то я рекомендовал бы переключиться на английский. Для этого перейдите в папку: C:\Qt\Qt5.2.0\Tools\QtCreator\share\qtcreator\translations и удалить все файлы в именах которых встречается "_ru"</li>
+    <li>выполняем инструкцию <a href="pure_cpp_in_qt.php">Первая программа на чистом C++ в Qt</a>, только на этапе ввода имени проекта вводим: acmp_0025_less_more</li>
 
     <p>Для примера разработаем программу, которая решает задачу: <a href="http://acmp.ru/index.asp?main=task&id_task=25">http://acmp.ru/index.asp?main=task&id_task=25</a></p>
 
-    <li>в меню Qt Creator'а выбираем "File" -> "New File or Project..."</li>
+    <li>копируем в "main.cpp" следующий код:</li>
+
+    <p><strong>main.cpp</strong></p>
+    <pre>
+<code class="language-cpp">
+#include &lt;string&gt;
+#include &lt;fstream&gt;
+#include &lt;iostream&gt;
+
+#define TESTING
+
+#ifndef TESTING
+int readData(const std::string &iFileName, int &first, int &second);
+int writeResult(const std::string& oFileName, int result);
+int showError(int err, const std::string& fileName);
+int less_or_more(int first, int second);
+
+int main(int argc, char** argv) {
+
+    // Входные данные
+    int first;
+    int second;
+
+    // Имя входного файла
+    std::string iFileName = "input.txt";
+
+    // Читаем данные из файла
+    int err = readData(iFileName, first, second);
+    if (err) return showError(err, iFileName);
+
+    // Выполняем содержательную часть
+    int result = less_or_more(first, second);
+
+    // Записываем выходной файл
+    std::string oFileName = "output.txt";
+    err = writeResult(oFileName, result);
+    if (err) return showError(err, oFileName);
+
+    return 0;
+}
+
+/**
+ * Читаем данные из файла
+ *
+ * @param iFileName Имя входного файла
+ * @param vec Массив, в который будут считаны входные данные
+ * @return Код ошибки: 0 - если ошибок нет
+ *                     1 - если файл не удалось открыть
+ *                     2 - если в файле некорректные данные
+ */
+int readData(const std::string& iFileName, int &first, int &second) {
+
+    // Код ошибки
+    int err = 0;
+
+    // Открываем файл с входными данными
+    std::ifstream in;
+    in.open(iFileName.c_str());
+    if (!in.is_open()) {
+        err = 1;
+        return err;
+    }
+
+    // Считываем данные из файла
+    if (in >> first >> second) {
+        err = 0;
+        return err;
+    } else {
+        err = 2;
+        return err;
+    }
+
+    // Закрываем файл и возвращаем нулевой код ошибки
+    in.close();
+    return err;
+}
+
+/**
+ * Записываем результат выходной в файл
+ *
+ * @param iFileName Имя выходного файла
+ * @param vec Массив, который нужно записать в файл
+ * @return Код ошибки: 0 - если ошибок нет
+ *                     1 - если файл не удалось открыть
+ *                     2 - если в файле не удалось записать
+ */
+int writeResult(const std::string& oFileName, int result) {
+
+    // Открываем файл для записи
+    std::ofstream out;
+    out.open(oFileName.c_str());
+    if (!out.is_open()) {
+        return 1;
+    }
+
+    // Записываем данные в файл
+    if (result > 0) {
+        out << ">" << std::endl;
+    } else if (result < 0) {
+        out << "<" << std::endl;
+    } else {
+        out << "=" << std::endl;
+    }
+
+    // Закрываем файл и возвращаем код ошибки
+    out.close();
+    return 0;
+}
+
+/**
+ * Выводит текст с ошибкой на экран
+ *
+ * @param err Код ошибки
+ * @param iFileName Имя файла, в котором произошла ошибка
+ */
+int showError(int err, const std::string& fileName) {
+    switch (err) {
+        case 1:
+            std::cerr << "Error: could not open the file " << fileName.c_str() << std::endl;
+            break;
+        case 2:
+            std::cerr << "Error: incorrect data in the file " << fileName.c_str() << std::endl;
+            break;
+        default:
+            std::cerr << "Error code: " << err << "; file name: " << fileName.c_str() << std::endl;
+            break;
+    }
+
+    return err;
+}
+#endif
+
+/**
+ * Проверяет больше или меньше
+ *
+ * @param first Первое число
+ * @param second Второе число
+ * @return Возвращает:  1 - если первое число больше второго
+ *                     -1 - если второе число больше первого
+ *                      0 - если числа равны
+ */
+int less_or_more(int first, int second) {
+    int result = 0;
+
+    return result;
+}
+</code>
+    </pre>
+
+    <li>в каталоге "build-acmp_0025_less_more-Desktop_Qt_5_2_0_MinGW_32bit-Debug" создаём файл с именем "input.txt" и записываем в него два числа: 7 7</li>
+
+    <li>содержательную часть выполняет функция:</li>
+    <pre>
+<code class="language-cpp">
+int less_or_more(int first, int second) {
+    int result = 0;
+
+    return result;
+}
+</code>
+    </pre>
+
+    <p>Функцию выше мы и будем тестировать. Создадим сначала тесты, а потом реализацию функции, которая удовлетворит все тесты.</p>
 
     <li>в разделе "Projects" выбираем "Other Project" -> во второй колонке выбираем "Qt Unit Test"</li>
 
     <li>нажимаем кнопку "Choose"</li>
 
-    <li>в поле "Name" вводим: MyFirstUnit</li>
+    <li>в поле "Name" вводим: acmp_0025_less_more_Tests</li>
+
+    <li>в поле "Create in" нужно указать путь, где лежит "main.cpp"</li>
 
     <li>нажимаем "Next" -> "Next" -> "Next" -> "Finish"</li>
 
-    <li>нажимаем правой кнопкой мыши по проекту в разделе "Projects" -> нажимаем "Add New...", как показано на рисунке:</li><br />
+    <li>открываем файл "acmp_0025_less_more_Tests.pro" и добавляем строку: SOURCES += ../main.cpp</li>
 
-    <img src="img/tdd_qt_imgs/001.png" />
+    <li>открываем файл "tst_acmp_0025_less_more_teststest.cpp" и копируем в него код:</li>
 
-    <li>в разделе "Files and Clases" выбираем "C++" -> во втором разделе выбираем "C++ Class"</li>
-
-    <li>нажимаем кнопку "Choose"</li>
-
-    <li>в поле "Class name" вводим: MyClass</li>
-
-    <li>нажимаем кнопку "Next" -> нажимаем кнопку "Finish"</li>
-
-    <li>открываем файл "myclass.h" и меняем его содержимое на следующее:</li>
-
-    <p><strong>myclass.h</strong></p>
-    <pre>
-<code class="language-cpp">
-#ifndef MYCLASS_H
-#define MYCLASS_H
-
-class MyClass
-{
-public:
-    int compare(int first, int second);
-};
-
-#endif // MYCLASS_H
-</code>
-    </pre>
-
-    <li>нажимаем правой кнопкой по функции compare() -> выбираем "Refactor" -> выбираем "Add Definition in myclass.cpp", как показано на рисунке:</li>
-
-    <img src="img/tdd_qt_imgs/002.png" />
-
-    <li>открываем файл "myclass.cpp" и меняем его содержимое на следующее:</li>
-
-    <p><strong>myclass.cpp</strong></p>
-    <pre>
-<code class="language-cpp">
-#include "myclass.h"
-
-int MyClass::compare(int first, int second)
-{
-    return 0;
-}
-</code>
-    </pre>
-
-    <li>открываем файл "tst_myfirstunittest.cpp"</li>
-
-    <p>Файле "tst_myfirstunittest.cpp" нам нужно в класс "MyFirstUnitTest" добавить функцию для инициализации данных testCase1_data() (данные - это входные данные и ожидаемый результат)</p>
-
-    <p>Ещё нам нужно написать реализацию для функций testCase1_data() и testCase1()</p>
-
-    <p>testCase1_data() - инициализирует данные (входные данные и ожидаемый результат)</p>
-
-    <p>testCase1() - запускает тесты, то есть производит вызовы тестируемой функции и сравнивает каждый результат вызова с соответствующим ожидаемым результатом</p>
-
-    <p>По условию задачи, нужно написать функцию, которая возвращает: -1 - если первый аргумент меньше второе, 1 - если первый аргумент больше второе и 0 - если оба аргумента равны друг другу</p>
-
-    <p>Напишем 10 тестов. В данном случае мы могли бы обойтись и меньшем количеством</p>
-
-    <li>меняем содержимое файла "tst_myfirstunittest.cpp" на следующее:</li>
-
-    <p><strong>tst_myfirstunittest.cpp</strong></p>
     <pre>
 <code class="language-cpp">
 #include &lt;QString&gt;
 #include &lt;QtTest&gt;
-#include "myclass.h"
 
-class MyFirstUnitTest : public QObject
+class Acmp_0025_less_more_TestsTest : public QObject
 {
     Q_OBJECT
 
 public:
-    MyFirstUnitTest();
+    Acmp_0025_less_more_TestsTest();
 
 private Q_SLOTS:
     void testCase1_data();
     void testCase1();
 };
 
-MyFirstUnitTest::MyFirstUnitTest()
+Acmp_0025_less_more_TestsTest::Acmp_0025_less_more_TestsTest()
 {
 }
 
-void MyFirstUnitTest::testCase1_data()
+void Acmp_0025_less_more_TestsTest::testCase1_data()
 {
     QTest::addColumn<int>("first");
     QTest::addColumn<int>("second");
@@ -148,45 +246,36 @@ void MyFirstUnitTest::testCase1_data()
     QTest::newRow("compare10") << 10 << -2000000000 << 1;
 }
 
-void MyFirstUnitTest::testCase1()
-{
-    MyClass mc;
+int less_or_more(int first, int second);
 
+void Acmp_0025_less_more_TestsTest::testCase1()
+{
     QFETCH(int, first);
     QFETCH(int, second);
     QFETCH(int, expected);
 
-    int actual = mc.compare(first, second);
+    int actual = less_or_more(first, second);
     QCOMPARE(actual, expected);
 }
 
-QTEST_APPLESS_MAIN(MyFirstUnitTest)
+QTEST_APPLESS_MAIN(Acmp_0025_less_more_TestsTest)
 
-#include "tst_myfirstunittest.moc"
+#include "tst_acmp_0025_less_more_teststest.moc"
 </code>
     </pre>
 
-    <li>нажимаем Ctrl+Shift+S, чтобы сохранить всё</li>
+    <li>запускаем тесты, для этого выбираем в меню "Build" -> "Run" (или Ctlr+R)</li>
 
-    <li>нажимаем Ctrl+R для построения и запуска программы</li>
+    <p>Мы видим, что тесты завершились отрицательно.</p>
 
-    <li>в окне "Application Output" мы можем видеть, что удачно завершился только первый тест, так как функция compare() всегда возвращает ноль. Мы передали два нуля и ожидали ноль в первом тесте.
-
-        <img src="img/tdd_qt_imgs/003.png" />
-
-        <p>Пишем функционал compare() в файле "myclass.cpp", чтобы она делала, то что мы ожидаем. С помощью тестов мы описали, что мы ожидаем от работы функции compare(). Если мы реализуем неправильно, то тесты нам это покажут.</p>
-
-    <li>меняем содержимое файла "myclass.cpp" на следующее:</li>
+    <li>копируем следующаю реализацию в функцию:</li>
 
     <p><strong>myclass.cpp</strong></p>
     <pre>
 <code class="language-cpp">
-#include "myclass.h"
+int less_or_more(int first, int second) {
+    int result = 0;
 
-int MyClass::compare(int first, int second)
-{
-    int result;
-    
     if (first > second) {
         result = 1;
     } else if (first < second) {
@@ -199,12 +288,10 @@ int MyClass::compare(int first, int second)
 }
 </code>
     </pre>
-
-    <li>нажимаем Ctrl+R для построения и запуска программы</li>
-
-    <p>Теперь мы видим, что тесты пройдены успешно:</p>
-
-    <img src="img/tdd_qt_imgs/004.png" />
+    
+    <li>снова запускаем тесты, для этого выбираем в меню "Build" -> "Run" (или Ctlr+R)</li>
+    
+    <p>Теперь мы видим, что тесты завершились положительно</p>
 
     <p><strong>Примечание:</strong> Чтобы отформатировать код (выровнить), нужно нажать Ctrl+A (чтобы выделить), потом нажать Ctrl+I.</p>
 

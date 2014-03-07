@@ -15,7 +15,7 @@ require_once 'core.inc.php';
                     <li>
                         <a href="examples_php.php">Примеры</a>
                     </li>
-                    
+
                     <li>
                         <a href="Alex_php.php">Уроки по PHP от Alex'а</a>
                     </li>
@@ -28,7 +28,7 @@ require_once 'core.inc.php';
                     <li>
                         <a href="examples_jquery.php">Примеры</a>
                     </li>
-                    
+
                     <li>
                         <a href="Alex_jquery.php">Уроки по jQuery от Alex'а</a>
                     </li>
@@ -55,6 +55,14 @@ require_once 'core.inc.php';
             <li>
                 <a href="#">Qt</a>
                 <ul>
+                    <li>
+                        <a href="#">Разборы примеров из Qt</a>
+                        <ul>
+                            <li>
+                                <a href="fortuneserver.php">Fortune Server</a>
+                            </li>
+                        </ul>
+                    </li>
                     <li>
                         <a href="examples_qt.php">Примеры на Qt</a>
                     </li>
@@ -91,19 +99,21 @@ require_once 'core.inc.php';
                 <li><a href="api_windows_examples.php">Примеры API Windows на C</a></li>
             </ul>
         </li>-->
-    
+
     <li>
         <a href="#">Пошаговые инструкции</a>
         <ul>
-<!--            <li>Главная инструкция разработчика</li>-->
+            <!--            <li>Главная инструкция разработчика</li>-->
+            <li><a href="pure_cpp_in_qt.php">Первая программа на чистом C++ в Qt</a></li>
+            <li><a href="instulling_netbeans.php.php">Установка NetBeans (C++)</a></li>
             <li><a href="tdd_cpp.php">Создание юнит-тестов на C++ (TDD)</a></li>
             <li><a href="tdd_qt.php">Создание юнит-тестов на Qt C++ (TDD)</a></li>
             <li><a href="static_qt.php">Инструкция для сборки приложений на Qt в один exe без зависимостей</a></li>
             <li><a href="git.php">Работа с Git</a></li>
-<!--            <li><a href="">Список дополнительных инструкций</a></li>-->
+            <!--            <li><a href="">Список дополнительных инструкций</a></li>-->
         </ul>
     </li>
-    
+
     <li>
         <a href="#">Ресурсы</a>
         <ul>

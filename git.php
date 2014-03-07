@@ -111,6 +111,11 @@ and open the template in the editor.
                 <ul>
                     <li>git branch</li>
                 </ul>
+                
+                <li>Мы можем удалить локальную ветку:</li>
+                <ul>
+                    <li>git branch -d the_local_branch</li>
+                </ul>
 
                 <li>Чтобы удалить файл из контроля git нужно выполнить:</li>
                 <ul>

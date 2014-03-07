@@ -28,51 +28,9 @@ and open the template in the editor.
 
     <p>Процесс установки не требует сборки cppunit вручную, так как этот пакет входит в состав Cygwin (Cygwin - набор инструментария для разработчика). Нам нужно будет только установить пакеты из набора Cygwin и среду NetBeans (которая позволяет автоматически создавать cppunit-тесты). Ещё создадим проект для демонстрации разработки через тестирование. Опишу пошагово весь процесс. Начну с самого начала. Допустим у нас нет ничего для разработки.</p>
 
-    <li>скачиваем и запускаем "setup-x86.exe" (или "setup-x86_64.exe"): <a href="http://cygwin.com/">http://cygwin.com/</a></li>
-
-    <li>на следующих рисунках показаны этапы установки (к последнему рисунку прилагается список пакетов, которые нужно выбрать для установки)</li>
-
-    <img src="http://i.pixs.ru/storage/4/8/3/001png_8498779_10291483.png" /><br />
-
-    <img src="http://i.pixs.ru/storage/4/8/5/002png_4484180_10291485.png" /><br />
-    <img src="http://i.pixs.ru/storage/4/8/7/003png_6210665_10291487.png" /><br />
-    <img src="http://i7.pixs.ru/storage/4/8/9/004png_9701947_10291489.png" /><br />
-    <img src="http://i.pixs.ru/storage/4/9/4/005png_5792513_10291494.png" /><br />
-    <img src="http://i.pixs.ru/storage/4/9/5/006png_2053067_10291495.png" /><br />
-
-    <p>Список пакетов, которые нужно выбрать как на следующем рисунке (mingw-gcc-g++ - выбирать не нужно! он выбран для примера)</p>
-
-    <li>cppunit: C++ unit testing framework</li>
-    <li>gcc-core: GNU Compiler Collection (C, OpenMP)</li>
-    <li>gcc-g++: GNU Compiler Collection (C++)</li>
-    <li>gdb: The GNU Debugger</li>
-    <li>make: The GNU version of the 'make' utility</li>
-
-    <img src="http://i7.pixs.ru/storage/4/9/7/007png_9232396_10291497.png" />
-
-    <li>нажимаем кнопку "Next" и соглашаемся с установкой всех зависимостей</li>
-
-    <li>дожимаемся окончания установки</li>
-
-    <li>для работы среды NetBeans нужно Java-окружение. Устанавливаем: <a href="http://java.com/">http://java.com/</a></li>
-
-    <li>скачиваем и устанавливаем NetBeans (я предпочитаю английскую версию) <a href="https://netbeans.org/downloads/">https://netbeans.org/downloads/</a></li>
-
-    <li>запускаем NetBeans и в меню выбираем "Tools" -> "Options" -> в верхней части выбираем "C/C++"</li>
-
-    <li>нажимаем кнопку "Add..." -> нажимаем кнопку "Browser" и выбираем путь "C:\cygwin64\bin" (при необходимости выбираем из выпадающего списка с названием "Tool Collection Family" - выбираем "Cygwin 4.x") Выглядит это так:</li>
-
-    <img src="http://i.pixs.ru/storage/5/4/7/008png_2043333_10291547.png" />
-
+    <li>устанавливаем NetBeans, как написано в этой инструкции: <a href="instulling_netbeans.php">установка NetBeans</a></li>
+    
     <li>теперь протестируем, для этого решим задачу: <a href="http://acmp.ru/index.asp?main=task&id_task=25">http://acmp.ru/index.asp?main=task&id_task=25</a></li>
-
-    <li>в меню выбираем "File" -> "New Project..."</li>
-
-    <li>выбираем, как на рисунке:</li>
-
-    <img src="http://i.pixs.ru/storage/9/8/2/009png_8806402_10291982.png" />
-
-    <li>нажимаем кнопку "Next" -> вводим имя проекта: acmp_0025_less_more -> нажимаем кнопку "Finish"</li>
 
     <li>в файл "main.cpp" копируем (на данном этапе, функция для решения задачи (т.е. "less_or_more()") - это просто "заглушка", т.е. она не обрабатывает входные данные, а просто возвращает фиксированный результат):</li>
 
@@ -82,51 +40,147 @@ and open the template in the editor.
 #include &lt;string&gt;
 #include &lt;fstream&gt;
 #include &lt;iostream&gt;
-using namespace std;
 
-int less_or_more(int first, int second) {
+int readData(const std::string &iFileName, int &first, int &second);
+int writeResult(const std::string& oFileName, int result);
+int showError(int err, const std::string& fileName);
+int less_or_more(int first, int second);
+
+int main(int argc, char** argv) {
+
+    // Входные данные
+    int first;
+    int second;
+
+    // Имя входного файла
+    std::string iFileName = "input.txt";
+
+    // Читаем данные из файла
+    int err = readData(iFileName, first, second);
+    if (err) return showError(err, iFileName);
+
+    // Выполняем содержательную часть
+    int result = less_or_more(first, second);
+
+    // Записываем выходной файл
+    std::string oFileName = "output.txt";
+    err = writeResult(oFileName, result);
+    if (err) return showError(err, oFileName);
+
     return 0;
 }
 
-int main(int argc, char** argv) {
-    string inFileName = "input.txt";
-    ifstream in;
-    in.open(inFileName.c_str());
+/**
+ * Читаем данные из файла
+ * 
+ * @param iFileName Имя входного файла
+ * @param vec Массив, в который будут считаны входные данные
+ * @return Код ошибки: 0 - если ошибок нет
+ *                     1 - если файл не удалось открыть
+ *                     2 - если в файле некорректные данные
+ */
+int readData(const std::string& iFileName, int &first, int &second) {
+
+    // Код ошибки
+    int err = 0;
+
+    // Открываем файл с входными данными
+    std::ifstream in;
+    in.open(iFileName.c_str());
     if (!in.is_open()) {
-        cerr << "Error: Could not open file " << inFileName.c_str() << endl;
+        err = 1;
+        return err;
+    }
+
+    // Считываем данные из файла
+    if (in >> first >> second) {
+        err = 0;
+        return err;
+    } else {
+        err = 2;
+        return err;
+    }
+
+    // Закрываем файл и возвращаем нулевой код ошибки
+    in.close();
+    return err;
+}
+
+/**
+ * Записываем результат выходной в файл
+ * 
+ * @param iFileName Имя выходного файла
+ * @param vec Массив, который нужно записать в файл
+ * @return Код ошибки: 0 - если ошибок нет
+ *                     1 - если файл не удалось открыть
+ *                     2 - если в файле не удалось записать
+ */
+int writeResult(const std::string& oFileName, int result) {
+
+    // Открываем файл для записи
+    std::ofstream out;
+    out.open(oFileName.c_str());
+    if (!out.is_open()) {
         return 1;
     }
 
-    string outFileName = "output.txt";
-    ofstream out;
-    out.open(outFileName.c_str());
-    if (!out.is_open()) {
-        cerr << "Error: Could not open file " << outFileName.c_str() << endl;
-        in.close();
-        return 1;
-    }
-    
-    int first, second;
-    
-    if (in >> first >> second) {
-        int result = less_or_more(first, second);
-        if (result > 0) {
-            out << ">" << endl;
-        } else if (result < 0) {
-            out << "<" << endl;
-        } else {
-            out << "=" << endl;
-        }
+    // Записываем данные в файл
+    if (result > 0) {
+        out << ">" << std::endl;
+    } else if (result < 0) {
+        out << "<" << std::endl;
     } else {
-        cerr << "Error: incorrect data in the file " << inFileName.c_str() << endl;
-        in.close();
-        out.close();
-        return 1;
+        out << "=" << std::endl;
     }
-    
-    in.close();
+
+    // Закрываем файл и возвращаем код ошибки
     out.close();
     return 0;
+}
+
+/**
+ * Выводит текст с ошибкой на экран
+ * 
+ * @param err Код ошибки
+ * @param iFileName Имя файла, в котором произошла ошибка
+ */
+int showError(int err, const std::string& fileName) {
+    switch (err) {
+        case 1:
+            std::cerr << "Error: could not open the file " << fileName.c_str() << std::endl;
+            break;
+        case 2:
+            std::cerr << "Error: incorrect data in the file " << fileName.c_str() << std::endl;
+            break;
+        default:
+            std::cerr << "Error code: " << err << "; file name: " << fileName.c_str() << std::endl;
+            break;
+    }
+
+    return err;
+}
+
+/**
+ * Проверяет больше или меньше
+ * 
+ * @param first Первое число
+ * @param second Второе число
+ * @return Возвращает:  1 - если первое число больше второго
+ *                     -1 - если второе число больше первого
+ *                      0 - если числа равны
+ */
+int less_or_more(int first, int second) {
+    int result;
+
+    if (first > second) {
+        result = 1;
+    } else if (first < second) {
+        result = -1;
+    } else {
+        result = 0;
+    }
+
+    return result;
 }
 </code>
     </pre>
