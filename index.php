@@ -7,15 +7,12 @@ and open the template in the editor.
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Magic</title>
-        <?php
-        require 'libs.inc.php';
-        ?>
     </head>
     <body>
         <?php
         require 'menu.inc.php';
+        require 'libs.inc.php';
         ?>
-
 
         <table style="margin:auto;">
             <tr>

@@ -113,6 +113,10 @@ require_once 'core.inc.php';
             <!--            <li><a href="">Список дополнительных инструкций</a></li>-->
         </ul>
     </li>
+    
+    <li>
+        <a href="math.php">Математика</a>
+    </li>
 
     <li>
         <a href="#">Ресурсы</a>
