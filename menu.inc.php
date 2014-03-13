@@ -105,10 +105,11 @@ require_once 'core.inc.php';
         <ul>
             <!--            <li>Главная инструкция разработчика</li>-->
             <li><a href="pure_cpp_in_qt.php">Первая программа на чистом C++ в Qt</a></li>
-            <li><a href="instulling_netbeans.php.php">Установка NetBeans (C++)</a></li>
-            <li><a href="tdd_cpp.php">Создание юнит-тестов на C++ (TDD)</a></li>
+            <li><a href="qt_sqlite.php">Работа с базой данных SQLite на Qt C++</a></li>
             <li><a href="tdd_qt.php">Создание юнит-тестов на Qt C++ (TDD)</a></li>
             <li><a href="static_qt.php">Инструкция для сборки приложений на Qt в один exe без зависимостей</a></li>
+            <li><a href="instulling_netbeans.php.php">Установка NetBeans (C++)</a></li>
+            <li><a href="tdd_cpp.php">Создание юнит-тестов на C++ (TDD)</a></li>
             <li><a href="git.php">Работа с Git</a></li>
             <!--            <li><a href="">Список дополнительных инструкций</a></li>-->
         </ul>
