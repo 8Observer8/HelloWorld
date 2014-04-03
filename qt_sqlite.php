@@ -23,7 +23,11 @@ and open the template in the editor.
             <li>ОС Windows 7</li>
         </ul>
 
-        <p>Примечание. Инструкция составлена по видео: <a href="http://www.youtube.com/watch?v=cc06D3wuTn4">http://www.youtube.com/watch?v=cc06D3wuTn4</a></p>
+        <p>
+            Примечания
+            1) Инструкция составлена по видео: <a href="http://www.youtube.com/watch?v=cc06D3wuTn4">http://www.youtube.com/watch?v=cc06D3wuTn4</a>
+            2) По следующей ссылке написано, как вставлять, редактировать и удалять ряды таблицы базы данных: <a href="http://zetcode.com/db/sqlite/datamanipulation/">http://zetcode.com/db/sqlite/datamanipulation/</a>
+        </p>
 
         <h3>Инструкция</h3>
         <ul>

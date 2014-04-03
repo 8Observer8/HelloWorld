@@ -24,45 +24,17 @@ and open the template in the editor.
         <h1>Таблицы времён английского языка</h1>
 
         <ul>
-            <li>
-                <a href = "#to_know_avoice">Indefinite tens, Active voice</a>
-            </li>
-
-            <li>
-                <a href = "#to_know_pvoice">Indefinite tens, Passive voice</a>
-            </li>
-
-            <li>
-                <a href = "#to_be">Indefinite tens (<em>to be</em>)</a>
-            </li>
-
-            <li>
-                <a href = "#to_have">Indefinite tens (<em>to have</em>)</a>
-            </li>
-
-            <li>
-                <a href = "#wh_words">WH-words</a>
-            </li>
-
-            <li>
-                <a href = "#aa_to_be">Continuous tens. Active voice</a>
-            </li>
-
-            <li>
-                <a href = "#ap_to_be">Continuous tens. Passive voice</a>
-            </li>
-
-            <li>
-                <a href = "#aa_to_have">Perfect tens. Active voice</a>
-            </li>
-
-            <li>
-                <a href = "#ap_to_have">Perfect tens. Passive voice</a>
-            </li>
-
-            <li>
-                <a href = "#pct_to_have">Perfect Continuous tens. Active voice</a>
-            </li>
+            <li><a href = "#to_know_avoice">Indefinite tens, Active voice</a></li>
+            <li><a href = "#to_know_pvoice">Indefinite tens, Passive voice</a></li>
+            <li><a href = "#to_be">Indefinite tens (<em>to be</em>)</a></li>
+            <li><a href = "#to_have">Indefinite tens (<em>to have</em>)</a></li>
+            <li><a href = "#aa_to_be">Continuous tens. Active voice</a></li>
+            <li><a href = "#ap_to_be">Continuous tens. Passive voice</a></li>
+            <li><a href = "#aa_to_have">Perfect tens. Active voice</a></li>
+            <li><a href = "#ap_to_have">Perfect tens. Passive voice</a></li>
+            <li><a href = "#pct_to_have">Perfect Continuous tens. Active voice</a></li>
+            <li><a href = "#wh_words">WH-words</a></li>
+            <li><a href = "#everything">Everything, somebody and so on</a></li>
         </ul>
 
         <h3><a name = "to_know_avoice"></a>Indefinite tens, Active voice</h3>
@@ -74,22 +46,22 @@ and open the template in the editor.
                 <th rowspan = "7">Future</th>
             </tr>
             <tr>
-                <td>Will I know?</td> <td>I will know</td> <td>I will not know <div id = "concise_form">(I won't know)</div></td>
+                <td>Will I know?</td> <td>I will know <div id = "concise_form">(I'll know)</div></td> <td>I will not know <div id = "concise_form">(I won't know)</div></td>
             </tr>
             <tr>
-                <td>Will she know?</td> <td>She will know</td> <td>She will not know <div id = "concise_form">(she won't know)</div></td>
+                <td>Will she know?</td> <td>She'll know <div id = "concise_form">(I'll know)</div></td> <td>She will not know <div id = "concise_form">(she won't know)</div></td>
             </tr>
             <tr>
-                <td>Will he know?</td> <td>He will know</td> <td>He will not know <div id = "concise_form">(he won't know)</div></td>
+                <td>Will he know?</td> <td>He will know <div id = "concise_form">(He'll know)</div></td> <td>He will not know <div id = "concise_form">(he won't know)</div></td>
             </tr>
             <tr>
-                <td>Will we know?</td> <td>We will know</td> <td>We will not know <div id = "concise_form">(we won't know)</div></td>
+                <td>Will we know?</td> <td>We will know <div id = "concise_form">(We'll know)</div></td> <td>We will not know <div id = "concise_form">(we won't know)</div></td>
             </tr>
             <tr>
-                <td>Will you know?</td> <td>You will know</td> <td>You will not know <div id = "concise_form">(you won't know)</div></td>
+                <td>Will you know?</td> <td>You will know <div id = "concise_form">(You'll know)</div></td> <td>You will not know <div id = "concise_form">(you won't know)</div></td>
             </tr>
             <tr>
-                <td>Will they know?</td> <td>They will know</td> <td>They will not know <div id = "concise_form">(they won't know)</div></td>
+                <td>Will they know?</td> <td>They will know <div id = "concise_form">(They'll know)</div></td> <td>They will not know <div id = "concise_form">(they won't know)</div></td>
             </tr>
 
             <tr>
@@ -438,31 +410,6 @@ and open the template in the editor.
             </tr>
             <tr>
                 <td>Had they?</td> <td>They had</td> <td>They had not <div id = "concise_form">(they hadn't)</div></td>
-            </tr>
-        </table>
-
-        <h3><a name = "wh_words"></a>WH-words</h3>
-        <table border = "1">
-            <tr>
-                <th>WH-word</th> <th>Example</th>
-            </tr>
-            <tr>
-                <td>What?</td> <td>What do you eat?</td>
-            </tr>
-            <tr>
-                <td>Where?</td> <td>Where do you live?</td>
-            </tr>
-            <tr>
-                <td>When?</td> <td>When do you work?</td>
-            </tr>
-            <tr>
-                <td>Why?</td> <td>Why do not you listen?</td>
-            </tr>
-            <tr>
-                <td>How?</td> <td>How do you work?</td>
-            </tr>
-            <tr>
-                <td>How much?</td> <td>How much pizza you ate?</td>
             </tr>
         </table>
 
@@ -936,6 +883,40 @@ and open the template in the editor.
             </tr>
         </table>
 
+        <h3><a name = "wh_words"></a>WH-words</h3>
+        <table border = "1">
+            <tr>
+                <th>WH-word</th> <th>Example</th>
+            </tr>
+            <tr>
+                <td>What?</td> <td>What do you eat?</td>
+            </tr>
+            <tr>
+                <td>Where?</td> <td>Where do you live?</td>
+            </tr>
+            <tr>
+                <td>When?</td> <td>When do you work?</td>
+            </tr>
+            <tr>
+                <td>Why?</td> <td>Why do not you listen?</td>
+            </tr>
+            <tr>
+                <td>How?</td> <td>How do you work?</td>
+            </tr>
+            <tr>
+                <td>How much?</td> <td>How much pizza you ate?</td>
+            </tr>
+        </table>
+
+        <h3><a name = "everything"></a>WH-words</h3>
+        <ul>
+            <li>Everything, something, anything, nothing</li>
+            <li>Everybody, somebody, anybody, nobody (everyone, someone, anyone, no one)</li>
+            <li>Everywhere, somewhere, anywhere, nowhere</li>
+            <li>Always, sometime, anytime, never</li>
+        </ul>
+        
+        
     </div>
     <div class="clear">
     </div>
