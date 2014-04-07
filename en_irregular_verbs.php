@@ -101,7 +101,7 @@ and open the template in the editor.
 
         <h3><a name="K"></a>K</h3>
         <ul>
-            <li>keep, kept, kept - держать, сохранять, хоранить, содержать</li>
+            <li>keep, kept, kept - держать, сохранять, хранить, содержать</li>
             <li>kneel, knelt, knelt - становиться на колени</li>
             <li>know, knew, known - знать</li>
         </ul>
