@@ -57,6 +57,21 @@ and open the template in the editor.
             <li>be, was, been - быть</li>
             <li>bear, bore, borne - поднять выдержать, рождаться</li>
             <li>beat, beat, beaten - ударять</li>
+            <li>become, became, become - становиться</li>
+            <li>begin, began, begun - начинать</li>
+            <li>bend, bent, bent - сгибаться, направлять, покорять</li>
+            <li>bid, bade, bidden - велеть, предложить, сулить, обещать</li>
+            <li>bind, bound, bound - завязать, привязать</li>
+            <li>bite, bit, bitten - кусать, укусить</li>
+            <li>bleed, bled, bled - кровоточить, истекать кровью</li>
+            <li>blow, blew, blown - дуть, веять, пыхнеть</li>
+            <li>break, broke, broken - сломать, разбить, разрушать, взламывать</li>
+            <li>breed, bred, bred - выводить, разводить, высиживать, вскармливать</li>
+            <li>bring, brought, brought - принести</li>
+            <li>build, built, built - строить</li>
+            <li>burn, burnt, burnt - гореть, сгореть</li>
+            <li>burst, burst, burst - взрываться, прорываться, лопаться</li>
+            <li>buy, bought, bought - покупать</li>
         </ul>
 
         <h3><a name="C"></a>C</h3>
@@ -162,6 +177,7 @@ and open the template in the editor.
         
         <p>
             <code>
+<!--
                 ТОП-195 НЕПРАВИЛЬНЫХ ГЛАГОЛОВ 
 
 1 abide [ə'baɪd] abode [ə'bəud] abode [ə'bəud] пребывать, придерживаться чего-либо
@@ -358,7 +374,7 @@ and open the template in the editor.
 192 wind wound wound заводить (механизм), виться
 193 withdraw withdrew withdrawn брать назад, отнимать
 194 wring wrung wrung жать, выжимать, скручивать
-195 write wrote written писать
+195 write wrote written писать-->
             </code>
         </p>
     </body>
