@@ -5,5 +5,10 @@
         <data xmlns="http://www.netbeans.org/ns/php-project/1">
             <name>Php_MainSite_center_menu</name>
         </data>
+        <spellchecker-wordlist xmlns="http://www.netbeans.org/ns/spellchecker-wordlist/1">
+            <word>объект</word>
+            <word>поставленно</word>
+            <word>таких</word>
+        </spellchecker-wordlist>
     </configuration>
 </project>

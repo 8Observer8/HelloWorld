@@ -49,7 +49,7 @@ require_once 'core.inc.php';
                         </ul>
                     </li>
 
-                    <li><a href="examples_qt.php">Примеры на Qt</a></li>
+                    <li><a href="qt_list_examples.php">Примеры на Qt</a></li>
                     <li><a href="Bryan_qt.php">Уроки по Qt от Bryan'a</a></li>
                     <li><a href="qt_books.php">Книги по Qt</a></li>
                 </ul>
@@ -101,6 +101,6 @@ require_once 'core.inc.php';
             </ul>
         </li>-->
 
-    <li><a href="math.php">Математика</a></li>
+<!--    <li><a href="math.php">Математика</a></li>-->
     <li><a href="http://qtobserver.freeoda.com/">English Version</a></li>
 </ul>
