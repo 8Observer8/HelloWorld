@@ -79,6 +79,10 @@ and open the template in the editor.
             <li>catch, caught, caught - ловить, схватывать</li>
             <li>choose, chose, chosen - выбирать</li>
             <li>cling, clung, clund - прильнуть, льнуть</li>
+            <li>come, came, come - приходить, прибывать</li>
+            <li>cost, cost, cost - стоить</li>
+            <li>creep, crept, crept - ползать, ползти, виться, красться</li>
+            <li>cut, cut, cut - резать, разрезать, постричь</li>
         </ul>
 
         <h3><a name="D"></a>D</h3>
@@ -86,6 +90,11 @@ and open the template in the editor.
             <li>deal, dealt, dealt - раздавать, распределять, торговать, поступать</li>
             <li>dig, dug, dug - копаться, копать, рыться</li>
             <li>do, did, done - делать, выполнять</li>
+            <li>draw, drew, drawn - рисовать</li>
+            <li>dream, dreamt, dreamt - видеть во сне, мечтать</li>
+            <li>drink, drank, drunk - пить</li>
+            <li>drive, drove, driven - водить (машину)</li>
+            <li>dwell, dwelt, dwelt - жить, пребывать, задерживаться</li>
         </ul>
 
         <h3><a name="E"></a>E</h3>
@@ -98,6 +107,13 @@ and open the template in the editor.
             <li>fall, fell, fallen - падать, спадать, убывать (о воде), обваливаться</li>
             <li>feed, fed, fed - кормить, покормить</li>
             <li>feel, felt, felt - чувствовать</li>
+            <li>fight, fought, fought - бороться</li>
+            <li>find, found, found - найти, находить</li>
+            <li>flee, fled, fled - бежать, спасаться бегством</li>
+            <li>fling, flung, flung - бросить, кинуть</li>
+            <li>fly, flew, flown - летать, улететь, полететь</li>
+            <li>forbid, forbade, forbidden - запрещать, запретить</li>
+            <li>forgive, forgave, forgiven - простить, прощать</li>
         </ul>
 
         <h3><a name="G"></a>G</h3>
