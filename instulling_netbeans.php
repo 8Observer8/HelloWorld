@@ -76,5 +76,7 @@ int main(int argc, char *argv[]) {
     </pre>
     
     <li>запускаем приложение, для этого в меню выбираем "Run" -> "Run Project" (или F6)</li>
+
+    <li>если мы хотим выровнить код, то надо нажать Shift+Alt+F</li>
 </body>
 </html>
