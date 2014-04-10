@@ -138,6 +138,36 @@ and open the template in the editor.
                     </a>
                 </p>
             </div>
+
+            <h3>Создание трёхмерной фигуры в OpenGL</h3>
+            <div>
+                <p>
+                    <strong id="brown">Источник:</strong>
+                    <a href="http://www.gamedev.ru/code/articles/OpenGL_Qt4">
+                        http://www.gamedev.ru/code/articles/OpenGL_Qt4
+                    </a>
+                    
+                    <strong id="brown">Исходники:</strong>
+                    <a href="https://github.com/8Observer8/Icosahedron">
+                        https://github.com/8Observer8/Icosahedron
+                    </a>
+                </p>
+            </div>
+
+            <h3>Создание анимации в OpenGL</h3>
+            <div>
+                <p>
+                    <strong id="brown">Источник:</strong>
+                    <a href="http://www.gamedev.ru/code/articles/OpenGL_Qt4_part2">
+                        http://www.gamedev.ru/code/articles/OpenGL_Qt4_part2
+                    </a>
+                    
+                    <strong id="brown">Исходники:</strong>
+                    <a href="https://github.com/8Observer8/Animation">
+                        https://github.com/8Observer8/Animation
+                    </a>
+                </p>
+            </div>
         </div>
     </body>
 </html>
