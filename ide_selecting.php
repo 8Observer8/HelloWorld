@@ -27,7 +27,7 @@ and open the template in the editor.
 
         <p>Есть встроенная в среду поддержка методологии разработки через тестирование (Test Driven Development): CppUnit, JUnit (для Java), PHPUnit, QUnit (независимо от среды; для JavaScript и jQuery). В Qt тоже есть поддержка: QTest</p>
 
-        <p>Ещё в NetBeans есть гибкая система настройки форматирования кода по нажатию Ctrl+Alt+F (Qt Creator тоже есть - Ctrl+I) - это очень удобно.</p>
+        <p>Ещё в NetBeans есть гибкая система настройки форматирования кода по нажатию Shift+Alt+F (Qt Creator тоже есть - Ctrl+I) - это очень удобно.</p>
 
         <p>Вот тут моя инструкция, как установить и настроить NetBeans для C++: <a href="http://notes.orgfree.com/instulling_netbeans.php">http://notes.orgfree.com/instulling_netbeans.php</a></p>
 
