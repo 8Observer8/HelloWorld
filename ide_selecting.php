@@ -29,7 +29,7 @@ and open the template in the editor.
 
         <p>Ещё в NetBeans есть гибкая система настройки форматирования кода по нажатию Ctrl+Alt+F (Qt Creator тоже есть - Ctrl+I) - это очень удобно.</p>
 
-        <p>Вот тут моя инструкция, как установить и настроить NetBeans для C++: <a href="http://localhost/PhpWebSites/Php_MainSite_center_menu/instulling_netbeans.php">http://localhost/PhpWebSites/Php_MainSite_center_menu/instulling_netbeans.php</a></p>
+        <p>Вот тут моя инструкция, как установить и настроить NetBeans для C++: <a href="http://notes.orgfree.com/instulling_netbeans.php">http://notes.orgfree.com/instulling_netbeans.php</a></p>
 
         <p>Я рекомендую лучше начать сразу с Qt. Там можно и на стандартном C++ писать. Вот моя инструкция: <a href="http://notes.orgfree.com/pure_cpp_in_qt.php">http://notes.orgfree.com/pure_cpp_in_qt.php</a></p>
 
