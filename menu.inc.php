@@ -9,6 +9,7 @@ require_once 'core.inc.php';
     <li>
         <a href="#">Разработка ПО</a>
         <ul>
+            <li><a href="ide_selecting.php">Выбор среды разработки</a></li>
             <li>
                 <a href="#">C++</a>
                 <ul>
@@ -101,6 +102,6 @@ require_once 'core.inc.php';
             </ul>
         </li>-->
 
-<!--    <li><a href="math.php">Математика</a></li>-->
+    <!--    <li><a href="math.php">Математика</a></li>-->
     <li><a href="http://qtobserver.freeoda.com/">English Version</a></li>
 </ul>
