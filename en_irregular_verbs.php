@@ -142,6 +142,13 @@ and open the template in the editor.
             <li>lay, laid, laid - положить, класть</li>
             <li>lead, led, led - вести, водить, руководить</li>
             <li>lean, lent, lent - опираться, прислоняться</li>
+            <li>leap, leapt, leapt - пригать</li>
+            <li>leave, left, left - оставлять, уезжать, покидать</li>
+            <li>lend, lent, lent - одалживать, давать в займы</li>
+            <li>let, let, let - разрешать, позволять</li>
+            <li>lie, lay, lain - по/лежать</li>
+            <li>light, lit, lit - зажигать, освещать</li>
+            <li>lose, lost, lost - потерять, утратить</li>
         </ul>
 
         <h3><a name="M"></a>M</h3>
@@ -149,6 +156,8 @@ and open the template in the editor.
             <li>make, made, made - делать, совершать</li>
             <li>mean, meant, meant - означать</li>
             <li>meet, met, met - встречать, встретить</li>
+            <li>mistake, mistook, mistaken - плохо понять, ошибаться</li>
+            <li>mow, mowed, mown - косить, стричь</li>
         </ul>
 
         <h3><a name="P"></a>P</h3>
@@ -162,6 +171,9 @@ and open the template in the editor.
             <li>read, read, read - читать</li>
             <li>rid, rid, rid - избавляться, отделываться</li>
             <li>ride, rode, ridden - ехать, кататься верхом</li>
+            <li>ring, rang, rung - звонить, позвонить</li>
+            <li>rise, rose, risen - всходить, восставать, подниматься</li>
+            <li>run, ran, run - бежать</li>
         </ul>
 
         <h3><a name="S"></a>S</h3>
@@ -169,6 +181,29 @@ and open the template in the editor.
             <li>saw, sawed, sawn - пилить</li>
             <li>say, said, said - говорить, сказать</li>
             <li>see, saw, seen - знать, увидеть, заметить</li>
+            <li>seek, sought, sought - искать</li>
+            <li>sell, sold, sold - продавать</li>
+            <li>send, sent, sent - посылать, отправлять</li>
+            <li>set, set, set - поставить, размещать, посадить</li>
+            <li>shake, shook, shaken - трясти, встряхивать</li>
+            <li>shine, shone, shone - сиять, светить, блестеть</li>
+            <li>shoot, shot, shot - стрелять</li>
+            <li>show, showed, shown - показывать</li>
+            <li>shrink, shrank, shrunk - сокращаться, усыхать, садиться (о материи)</li>
+            <li>shut, shut, shut - закрывать, захлопывать</li>
+            <li>sing, sank, sunk - опускать, тонуть, погружаться</li>
+            <li>sit, sat, sat - сидеть</li>
+            <li>sleep, slept, slept - спать</li>
+            <li>slide, slit, slit - разрезать в длину</li>
+            <li>smell, smelt, smelt - чувствовать, нюхать</li>
+            <li>sow, sowed, sown - посеять</li>
+            <li>speak, spoke, spoken - разговаривать, говорить</li>
+            <li>spell, spelt, spelt - произносить</li>
+            <li>spend, spent, spent - проводить (время), тратить (деньги)</li>
+            <li>spill, spilt, spilt - разлить, рассыпать</li>
+            <li>spin, spun, spun - различать, рассыпать</li>
+            <li>spit, spat, spat - прясть, сучить, сновать</li>
+            <li>split, split, split - расщеплять, раскалывать</li>
         </ul>
 
         <h3><a name="T"></a>T</h3>
