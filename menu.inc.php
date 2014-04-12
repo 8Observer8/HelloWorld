@@ -16,6 +16,7 @@ require_once 'core.inc.php';
                     <li>
                         <a href="#">Пошаговые инструкции</a>
                         <ul>
+                            <li><a href="cpp_handling_errors.php">Обработка ошибок</a></li>
                             <li><a href="instulling_netbeans.php">Установка среды NetBeans</a></li>
                             <li><a href="pure_cpp_in_qt.php">Первая программа на чистом C++ в Qt</a></li>
                             <li><a href="tdd_cpp.php">Создание юнит-тестов на C++ (TDD)</a></li>
@@ -36,6 +37,7 @@ require_once 'core.inc.php';
                     <li>
                         <a href="#">Пошаговые инструкции</a>
                         <ul>
+                            <li><a href="cpp_handling_errors.php">Обработка ошибок</a></li>
                             <li><a href="qt_sqlite.php">Работа с базой данных SQLite на Qt C++</a></li>
                             <li><a href="tdd_qt.php">Создание юнит-тестов на Qt C++ (TDD)</a></li>
                             <li><a href="static_qt.php">Инструкция для сборки приложений на Qt в один exe без зависимостей</a></li>
