@@ -204,6 +204,18 @@ and open the template in the editor.
             <li>spin, spun, spun - различать, рассыпать</li>
             <li>spit, spat, spat - прясть, сучить, сновать</li>
             <li>split, split, split - расщеплять, раскалывать</li>
+            <li>spread, spread, spread - расстилать, распростроняться</li>
+            <li>spring, sprang, sprung - прыгать, прыгнуть</li>
+            <li>stand, stood, stood - стоять</li>
+            <li>steal, stole, stolen - украсть</li>
+            <li>stick, stuck, stuck - застревать, приклеивать, прилипать</li>
+            <li>sting, stung, stung - уколоть, ужалить</li>
+            <li>strike, struck, struck - ударить, высекать, чеканить, бастовать</li>
+            <li>swear, swore, sworn - присягать, клясться, ругаться</li>
+            <li>sweep, swept, swept - подметать, чистить, проноситься</li>
+            <li>swell, swelled, swollen - пухнуть, раздуваться, набухать</li>
+            <li>swin, swan, swum - плавать</li>
+            <li>swing, swung, swung - качаться, колебаться</li>
         </ul>
 
         <h3><a name="T"></a>T</h3>
@@ -211,6 +223,10 @@ and open the template in the editor.
             <li>take, took, taken - брать, забрать, забирать</li>
             <li>teach, taught, taught - учить, преподавать</li>
             <li>tear, tore, torn - рваться, разрываться, раздирать, мчаться</li>
+            <li>tell, told, told - говорить, рассказывать</li>
+            <li>think, thought, thought - по/думать</li>
+            <li>throw, threw, thrown - бросать</li>
+            <li>tread, trod, trodden - ступать, затаптывать</li>
         </ul>
 
         <h3><a name="U"></a>U</h3>
@@ -224,6 +240,10 @@ and open the template in the editor.
             <li>wake, woke, woke - проснуться</li>
             <li>wear, wore, worn - носить (одежду), ходить одетым</li>
             <li>weep, wept, wept - плакать, оплакивать</li>
+            <li>wear, wore, worn - носить (одежду), ходить одетым</li>
+            <li>weep, wept, wetp - плакать, оплакивать</li>
+            <li>win, won, won - выигрывать, одерживать</li>
+            <li>write, wrote, written - писать</li>
         </ul>
         
         <p>
