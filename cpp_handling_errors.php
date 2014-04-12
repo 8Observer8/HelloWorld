@@ -40,8 +40,8 @@ and open the template in the editor.
 
         <p>Стратегию "без исключений" мне подсказал "Igors" в одной из тем на форуме: <a href="http://www.prog.org.ru/index.php?action=forum">http://www.prog.org.ru/index.php?action=forum</a></p>
 
-        <p>Потом я создал тему, где пытался выбрать стратегию для себя. В результате остановился на исключениях (на создании своих классов исключений, как в демо-примерах выше и указанном выше параграфе книги). Тема на форуме по Qt: <a href="http://www.prog.org.ru/topic_26723_0.html">http://www.prog.org.ru/topic_26723_0.html</a></p>
+        <p>Потом я создал тему, где пытался выбрать стратегию для себя. В результате остановился на исключениях (на создании своих классов исключений, как в демо-примере выше и указанном выше параграфе книги). Тема на форуме по Qt: <a href="http://www.prog.org.ru/topic_26723_0.html">http://www.prog.org.ru/topic_26723_0.html</a></p>
 
-        <p>P.S. Здесь проект, как тестировать класс с исключениями FiveAndFive (выше). Только надо чтобы папка с проектом FiveAndFive и FiveAndFiveTests лежали в одном каталоге. Этот проект создаётся в Qt 5.2.1 так: File -> New File or Project... -> Other Project -> Qt Unit Test: <a href="https://github.com/8Observer8/FiveAndFiveTests">https://github.com/8Observer8/FiveAndFiveTests</a></p>
+        <p>P.S. Здесь проект, как тестировать класс с исключениями FiveAndFive (выше). Только надо чтобы папки с проектами FiveAndFive и FiveAndFiveTests лежали в одном каталоге. Этот проект создаётся в Qt 5.2.1 так: File -> New File or Project... -> Other Project -> Qt Unit Test: <a href="https://github.com/8Observer8/FiveAndFiveTests">https://github.com/8Observer8/FiveAndFiveTests</a></p>
     </body>
 </html>
