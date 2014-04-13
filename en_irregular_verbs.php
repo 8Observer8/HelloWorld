@@ -76,6 +76,8 @@ and open the template in the editor.
 
         <h3><a name="C"></a>C</h3>
         <ul>
+            <li>can, could - мочь, могу</li>
+            <li>cast, cast, cast - кидать</li>
             <li>catch, caught, caught - ловить, схватывать</li>
             <li>choose, chose, chosen - выбирать</li>
             <li>cling, clung, clund - прильнуть, льнуть</li>
@@ -107,13 +109,15 @@ and open the template in the editor.
             <li>fall, fell, fallen - падать, спадать, убывать (о воде), обваливаться</li>
             <li>feed, fed, fed - кормить, покормить</li>
             <li>feel, felt, felt - чувствовать</li>
-            <li>fight, fought, fought - бороться</li>
+            <li>fight, fought, fought - бороться, сражаться</li>
             <li>find, found, found - найти, находить</li>
             <li>flee, fled, fled - бежать, спасаться бегством</li>
             <li>fling, flung, flung - бросить, кинуть</li>
             <li>fly, flew, flown - летать, улететь, полететь</li>
             <li>forbid, forbade, forbidden - запрещать, запретить</li>
+            <li>forget, forgot, forgotten - забывать</li>
             <li>forgive, forgave, forgiven - простить, прощать</li>
+            <li>freeze, froze, frozen - замораживать</li>
         </ul>
 
         <h3><a name="G"></a>G</h3>
@@ -121,13 +125,18 @@ and open the template in the editor.
             <li>get, got, got - получить, приобрести</li>
             <li>give, gave, given - давать</li>
             <li>go, went, gone - идти</li>
+            <li>grow, grew, grown - расти, выращивать</li>
         </ul>
 
         <h3><a name="H"></a>H</h3>
         <ul>
             <li>hang, hung, hung - висеть, повесить</li>
             <li>have, had, had - иметь, обладать</li>
+            <li>hear, heard, heard - у/слышать, послушать</li>
             <li>hide, hid, hidden - скрывать, прятать</li>
+            <li>hit, hit, hit - ударять, стучать(ся)</li>
+            <li>hold, held, held - держать, сдерживать, останавливать, проводить</li>
+            <li>hurt, hurt, hurt - ранить, повреждать, причинять боль</li>
         </ul>
 
         <h3><a name="K"></a>K</h3>
