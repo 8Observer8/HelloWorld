@@ -52,7 +52,7 @@ require_once 'core.inc.php';
                         </ul>
                     </li>
 
-                    <li><a href="qt_list_examples.php">Примеры на Qt</a></li>
+                    <li><a href="examples_qt.php">Примеры на Qt</a></li>
                     <li><a href="Bryan_qt.php">Уроки по Qt от Bryan'a</a></li>
                     <li><a href="qt_books.php">Книги по Qt</a></li>
                 </ul>
@@ -88,6 +88,10 @@ require_once 'core.inc.php';
             <li><a href="tense_table.php">Таблицы времён</a></li>
             <li><a href="en_irregular_verbs.php">Неправильные глаголы</a></li>
         </ul>
+    </li>
+    
+    <li>
+        <a href="portfolio.php">Портфолио</a>
     </li>
     <!--    <li>
             <a href="#">Примеры программ</a>

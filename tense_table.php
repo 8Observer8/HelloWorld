@@ -35,6 +35,10 @@ and open the template in the editor.
             <li><a href = "#pct_to_have">Perfect Continuous tens. Active voice</a></li>
             <li><a href = "#wh_words">WH-words</a></li>
             <li><a href = "#everything">Everything, somebody and so on</a></li>
+            <li><a href = "#gerund">Gerund</a></li>
+            <li><a href = "#infinitive">Infinitive</a></li>
+            <li><a href = "#participle1">Participle 1</a></li>
+            <li><a href = "#participle2">Participle 2</a></li>
         </ul>
 
         <h3><a name = "to_know_avoice"></a>Indefinite tens, Active voice</h3>
@@ -908,15 +912,69 @@ and open the template in the editor.
             </tr>
         </table>
 
-        <h3><a name = "everything"></a>WH-words</h3>
+        <h3><a name = "everything"></a>Everything, somebody and so on</h3>
         <ul>
             <li>Everything, something, anything, nothing</li>
             <li>Everybody, somebody, anybody, nobody (everyone, someone, anyone, no one)</li>
             <li>Everywhere, somewhere, anywhere, nowhere</li>
             <li>Always, sometime, anytime, never</li>
         </ul>
-        
-        
+
+        <h3><a name = "gerund"></a>Gerund</h3>
+        <table border = "1">
+            <tr>
+                <th></th><th>Active</th> <th>Passive</th>
+            </tr>
+            <tr>
+                <th rowspan = "1">Indefinite</th><td>inviting</td> <td>being invited</td> 
+            </tr>
+            <tr>
+                <th rowspan = "1">Perfect</th><td>having invited</td> <td>having been invited</td> 
+            </tr>
+        </table>
+
+        <h3><a name = "infinitive"></a>Infinitive</h3>
+        <table border = "1">
+            <tr>
+                <th></th><th>Active</th> <th>Passive</th>
+            </tr>
+            <tr>
+                <th rowspan = "1">Indefinite</th><td>to write</td> <td>to be written</td> 
+            </tr>
+            <tr>
+                <th rowspan = "1">Continuous</th><td>to be inviting</td> <td>-</td> 
+            </tr>
+            <tr>
+                <th rowspan = "1">Perfect</th><td>to have written</td> <td>to have been written</td> 
+            </tr>
+            <tr>
+                <th rowspan = "1">Perfect Continuous</th><td>to have been writing</td> <td>-</td> 
+            </tr>
+        </table>
+
+        <h3><a name = "participle1"></a>Participle 1</h3>
+        <table border = "1">
+            <tr>
+                <th></th><th>Active</th> <th>Passive</th>
+            </tr>
+            <tr>
+                <th rowspan = "1">Indefinite</th><td>doing</td> <td>being done</td> 
+            </tr>
+            <tr>
+                <th rowspan = "1">Perfect</th><td>having done</td> <td>having been done</td> 
+            </tr>
+        </table>
+
+        <h3><a name = "participle2"></a>Participle 2</h3>
+        <table border = "1">
+            <tr>
+                <th></th><th>Active</th> <th>Passive</th>
+            </tr>
+            <tr>
+                <th rowspan = "1">Indefinite</th><td>-</td> <td>done</td> 
+            </tr>
+        </table>
+
     </div>
     <div class="clear">
     </div>

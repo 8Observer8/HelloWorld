@@ -16,7 +16,7 @@ and open the template in the editor.
         ?>
 
         <h1>Неправильные глаголы</h1>
-        <p>
+        <p class="content">
             <a href="#A">A, </a>
             <a href="#B">B, </a>
             <a href="#C">C, </a>
@@ -46,14 +46,14 @@ and open the template in the editor.
                         <a href="#">, </a>-->
         </p>
 
-        <h3><a name="A"></a>A</h3>
-        <ul>
+        <h3 class="content"><a name="A"></a>A</h3>
+        <ul class="content">
             <li>arise, arose, arisen - возникать, вставать, восставать</li>
             <li>awake, awoke, awakened - просыпаться</li>
         </ul>
 
-        <h3><a name="B"></a>B</h3>
-        <ul>
+        <h3 class="content"><a name="B"></a>B</h3>
+        <ul class="content">
             <li>be, was, been - быть</li>
             <li>bear, bore, borne - поднять выдержать, рождаться</li>
             <li>beat, beat, beaten - ударять</li>
@@ -74,8 +74,8 @@ and open the template in the editor.
             <li>buy, bought, bought - покупать</li>
         </ul>
 
-        <h3><a name="C"></a>C</h3>
-        <ul>
+        <h3 class="content"><a name="C"></a>C</h3>
+        <ul class="content">
             <li>can, could - мочь, могу</li>
             <li>cast, cast, cast - кидать</li>
             <li>catch, caught, caught - ловить, схватывать</li>
@@ -87,8 +87,8 @@ and open the template in the editor.
             <li>cut, cut, cut - резать, разрезать, постричь</li>
         </ul>
 
-        <h3><a name="D"></a>D</h3>
-        <ul>
+        <h3 class="content"><a name="D"></a>D</h3>
+        <ul class="content">
             <li>deal, dealt, dealt - раздавать, распределять, торговать, поступать</li>
             <li>dig, dug, dug - копаться, копать, рыться</li>
             <li>do, did, done - делать, выполнять</li>
@@ -99,13 +99,13 @@ and open the template in the editor.
             <li>dwell, dwelt, dwelt - жить, пребывать, задерживаться</li>
         </ul>
 
-        <h3><a name="E"></a>E</h3>
-        <ul>
+        <h3 class="content"><a name="E"></a>E</h3>
+        <ul class="content">
             <li>eat, ate, eaten - есть</li>
         </ul>
 
-        <h3><a name="F"></a>F</h3>
-        <ul>
+        <h3 class="content"><a name="F"></a>F</h3>
+        <ul class="content">
             <li>fall, fell, fallen - падать, спадать, убывать (о воде), обваливаться</li>
             <li>feed, fed, fed - кормить, покормить</li>
             <li>feel, felt, felt - чувствовать</li>
@@ -120,16 +120,16 @@ and open the template in the editor.
             <li>freeze, froze, frozen - замораживать</li>
         </ul>
 
-        <h3><a name="G"></a>G</h3>
-        <ul>
+        <h3 class="content"><a name="G"></a>G</h3>
+        <ul class="content">
             <li>get, got, got - получить, приобрести</li>
             <li>give, gave, given - давать</li>
             <li>go, went, gone - идти</li>
             <li>grow, grew, grown - расти, выращивать</li>
         </ul>
 
-        <h3><a name="H"></a>H</h3>
-        <ul>
+        <h3 class="content"><a name="H"></a>H</h3>
+        <ul class="content">
             <li>hang, hung, hung - висеть, повесить</li>
             <li>have, had, had - иметь, обладать</li>
             <li>hear, heard, heard - у/слышать, послушать</li>
@@ -139,15 +139,15 @@ and open the template in the editor.
             <li>hurt, hurt, hurt - ранить, повреждать, причинять боль</li>
         </ul>
 
-        <h3><a name="K"></a>K</h3>
-        <ul>
+        <h3 class="content"><a name="K"></a>K</h3>
+        <ul class="content">
             <li>keep, kept, kept - держать, сохранять, хранить, содержать</li>
             <li>kneel, knelt, knelt - становиться на колени</li>
             <li>know, knew, known - знать</li>
         </ul>
 
-        <h3><a name="L"></a>L</h3>
-        <ul>
+        <h3 class="content"><a name="L"></a>L</h3>
+        <ul class="content">
             <li>lay, laid, laid - положить, класть</li>
             <li>lead, led, led - вести, водить, руководить</li>
             <li>lean, lent, lent - опираться, прислоняться</li>
@@ -160,8 +160,8 @@ and open the template in the editor.
             <li>lose, lost, lost - потерять, утратить</li>
         </ul>
 
-        <h3><a name="M"></a>M</h3>
-        <ul>
+        <h3 class="content"><a name="M"></a>M</h3>
+        <ul class="content">
             <li>make, made, made - делать, совершать</li>
             <li>mean, meant, meant - означать</li>
             <li>meet, met, met - встречать, встретить</li>
@@ -169,14 +169,14 @@ and open the template in the editor.
             <li>mow, mowed, mown - косить, стричь</li>
         </ul>
 
-        <h3><a name="P"></a>P</h3>
-        <ul>
+        <h3 class="content"><a name="P"></a>P</h3>
+        <ul class="content">
             <li>pay, paid, paid - платить</li>
             <li>put, put, put - класть, положить</li>
         </ul>
 
-        <h3><a name="R"></a>R</h3>
-        <ul>
+        <h3 class="content"><a name="R"></a>R</h3>
+        <ul class="content">
             <li>read, read, read - читать</li>
             <li>rid, rid, rid - избавляться, отделываться</li>
             <li>ride, rode, ridden - ехать, кататься верхом</li>
@@ -185,8 +185,8 @@ and open the template in the editor.
             <li>run, ran, run - бежать</li>
         </ul>
 
-        <h3><a name="S"></a>S</h3>
-        <ul>
+        <h3 class="content"><a name="S"></a>S</h3>
+        <ul class="content">
             <li>saw, sawed, sawn - пилить</li>
             <li>say, said, said - говорить, сказать</li>
             <li>see, saw, seen - знать, увидеть, заметить</li>
@@ -227,8 +227,8 @@ and open the template in the editor.
             <li>swing, swung, swung - качаться, колебаться</li>
         </ul>
 
-        <h3><a name="T"></a>T</h3>
-        <ul>
+        <h3 class="content"><a name="T"></a>T</h3>
+        <ul class="content">
             <li>take, took, taken - брать, забрать, забирать</li>
             <li>teach, taught, taught - учить, преподавать</li>
             <li>tear, tore, torn - рваться, разрываться, раздирать, мчаться</li>
@@ -238,14 +238,14 @@ and open the template in the editor.
             <li>tread, trod, trodden - ступать, затаптывать</li>
         </ul>
 
-        <h3><a name="U"></a>U</h3>
-        <ul>
+        <h3 class="content"><a name="U"></a>U</h3>
+        <ul class="content">
             <li>understand, understood, understood - понимать</li>
             <li>upset, upset, upset - опрокинуть, беспокоить</li>
         </ul>
 
-        <h3><a name="W"></a>W</h3>
-        <ul>
+        <h3 class="content"><a name="W"></a>W</h3>
+        <ul class="content">
             <li>wake, woke, woke - проснуться</li>
             <li>wear, wore, worn - носить (одежду), ходить одетым</li>
             <li>weep, wept, wept - плакать, оплакивать</li>
@@ -255,9 +255,9 @@ and open the template in the editor.
             <li>write, wrote, written - писать</li>
         </ul>
         
+        <!--
         <p>
             <code>
-<!--
                 ТОП-195 НЕПРАВИЛЬНЫХ ГЛАГОЛОВ 
 
 1 abide [ə'baɪd] abode [ə'bəud] abode [ə'bəud] пребывать, придерживаться чего-либо
@@ -454,8 +454,8 @@ and open the template in the editor.
 192 wind wound wound заводить (механизм), виться
 193 withdraw withdrew withdrawn брать назад, отнимать
 194 wring wrung wrung жать, выжимать, скручивать
-195 write wrote written писать-->
+195 write wrote written писать
             </code>
-        </p>
+        </p>-->
     </body>
 </html>

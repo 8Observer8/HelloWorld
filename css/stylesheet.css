@@ -12,7 +12,7 @@
 
 .ui-menu > li { 
     position: relative;
-    float: left;
+/*    float: left;*/
     display: block;
     width: auto !important;
 }
@@ -24,8 +24,8 @@
 }
 
 .ui-menu ul li ul {
-    /*    left:120px !important;*/
-    /*    width:100%;*/
+/*    left:120px !important;
+    width:100%;*/
 }
 
 .ui-menu ul li ul li {
@@ -97,6 +97,13 @@ body > a {
 
 body {
     background: #FFFFFF;
+    line-height: 1.5em;
+    font-family: Arial;
+}
+
+.content {
+    max-width: 600px;
+    margin: 1em auto;
 }
 
 a:link {

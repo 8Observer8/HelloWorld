@@ -10,8 +10,8 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        require 'menu.inc.php';
         require 'libs.inc.php';
+        require 'menu.inc.php';
         ?>
 
         <table style="margin:auto;">
