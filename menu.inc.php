@@ -10,6 +10,14 @@ require_once 'core.inc.php';
         <a href="#">Разработка ПО</a>
         <ul>
             <li><a href="ide_selecting.php">Выбор среды разработки</a></li>
+
+            <li>
+                <a href="examples.php">Примеры</a>
+                <ul>
+                    <li><a href="examples_qt.php">Примеры на Qt</a></li>
+                </ul>
+            </li>
+
             <li>
                 <a href="#">C++</a>
                 <ul>
@@ -90,9 +98,9 @@ require_once 'core.inc.php';
         </ul>
     </li>
     
-    <li>
+<!--    <li>
         <a href="portfolio.php">Портфолио</a>
-    </li>
+    </li>-->
     <!--    <li>
             <a href="#">Примеры программ</a>
             <ul>

@@ -29,5 +29,13 @@ and open the template in the editor.
         <p class="content">
             <strong>Исходники:</strong> <a href="https://github.com/8Observer8/ParserHtmlRGB">https://github.com/8Observer8/ParserHtmlRGB</a>
         </p>
+        
+        <table class="content">
+            <tr>
+                <td>
+                    <img src="img/ParserHtmlRGB/ParserHtmlRGB.png" />
+                </td>
+            </tr>
+        </table>
     </body>
 </html>

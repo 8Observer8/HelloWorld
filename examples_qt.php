@@ -17,10 +17,14 @@ and open the template in the editor.
 
         <h1>Примеры на Qt</h1>
         
-        <h3>База данных SQLite</h3>
+        <ul class="content">
+            <li><a href="ParserHtmlRGB.php">Парсинг цветов с web-страниц</a></li>
+        </ul>
+        
+<!--        <h3>База данных SQLite</h3>
         <ul>
             <li><a href="">Контакты</a></li>
-        </ul>
+        </ul>-->
 <!--        <p><strong>Описание. </strong> Здесь представлены примеры на Qt. Каждый пример содержит:</p>
         <ul>
             <li>краткое описание</li>
