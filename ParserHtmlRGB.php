@@ -19,11 +19,14 @@ and open the template in the editor.
         
         <p class="content">
             <strong>Описание.</strong> Приложение выдаёт все цвета
-            с введённой страницы.
+            с введённой страницы. К примеру, с этой: 
+            <a href="http://www.w3schools.com/html/html_colors.asp">
+                http://www.w3schools.com/html/html_colors.asp
+            </a>
         </p>
         
         <p class="content">
-            <strong>Скачать:</strong> <a href="Applications/ParserHtmlRGB.zip">ParserHtmlRGB.zip</a>
+            <strong>Скачать приложение для Windows:</strong> <a href="Applications/ParserHtmlRGB.zip">ParserHtmlRGB.zip</a>
         </p>
         
         <p class="content">
