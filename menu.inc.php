@@ -97,10 +97,10 @@ require_once 'core.inc.php';
             <li><a href="en_irregular_verbs.php">Неправильные глаголы</a></li>
         </ul>
     </li>
-    
-<!--    <li>
-        <a href="portfolio.php">Портфолио</a>
-    </li>-->
+
+    <!--    <li>
+            <a href="portfolio.php">Портфолио</a>
+        </li>-->
     <!--    <li>
             <a href="#">Примеры программ</a>
             <ul>
@@ -116,6 +116,7 @@ require_once 'core.inc.php';
             </ul>
         </li>-->
 
-    <!--    <li><a href="math.php">Математика</a></li>-->
+    <li><a href="math.php">Математика</a></li>
+
     <li><a href="http://qtobserver.freeoda.com/">English Version</a></li>
 </ul>
