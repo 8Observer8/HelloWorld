@@ -98,15 +98,55 @@ and open the template in the editor.
     &lt;/head&gt;
     &lt;body&gt;
         &lt;input id="requestButton" type="button" value="Показать температуру в Лондоне за 5 дней" /&gt;&lt;br /&gt;
-        &lt;div id="output"&gt;&lt;/div&gt;
+        &lt;span id="output"&gt;&lt;/span&gt;
     &lt;/body&gt;
 &lt;/html&gt;
 </code>
             </pre>
 
-            <li>Создадим обработчик кнопки в файле "request.js", для этого создадим папку с именем "js", где будет этот файл</li>
+            <li>Создадим обработчик кнопки в файле "request.js", для этого создадим папку с именем "js", где будет располагаться файл "request.js"</li>
+            <p><strong>request.js</strong></p>
+            <pre>
+<code class="language-php">
+$( document ).ready( function( ) {
+    $( '#requestButton' ).click( function() {
+        var city = "London";
+        var format = "json";
+        var keyValue = "ca94f06c9f5eedc355a426b72c93b42ab289be22";
+        $.get( 'https://api.worldweatheronline.com/free/v1/weather.ashx', { q: city, format: format, num_of_days: 5, key: keyValue }, function( data ) {
+            $("#output").html("<pre>" + JSON.stringify(data, null, 2) + "</pre>");
+        } );
+    } );
+} );
+</code>
+            </pre>
             
-            <li></li>
+            <li>Скачиваем библиотеку jQuery: <a href="http://jquery.com/">http://jquery.com/</a> и добавляем её в папку libs, как показано на рисунке:</li>
+            <img src="img/jQueryRequestToServer/011.png" />
+            <li>Подключаем в файле "index.php" скрипты "jquery.min.js" и "request.js"</li>
+            <p><strong>index.php</strong></p>
+            <pre>
+<code class="language-php">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;meta charset="UTF-8"&gt;
+        &lt;title&gt;Запрос к удалённому серверу&lt;/title&gt;
+        &lt;script type="text/javascript" src="js/libs/jquery-1.9.0/jquery.min.js"&gt;&lt;/script&gt;
+        &lt;script type="text/javascript" src="js/request.js"&gt;&lt;/script&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;input id="requestButton" type="button" value="Показать температуру в Лондоне за 5 дней" /&gt;&lt;br /&gt;
+        &lt;div id="output"&gt;&lt;/div&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</code>
+            </pre>
+            
+            <li>Запускаем приложение (F6)</li>
+            <li>Нажимаем на кнопку "Показать температуру в Лондоне за 5 дней" и мы видим на экране ответ от сервера:</li>
+            <img src="img/jQueryRequestToServer/012.png" />
+            
 
 <!--            <li> ...и мы получим ответ и покажем его на экране. Для начала, прочитайте инструкцию "How to get access to free weather API?" на ресурсе: <a href="http://www.worldweatheronline.com/free-weather-feed.aspx">http://www.worldweatheronline.com/free-weather-feed.aspx</a></li>
             <li>Согласно инструкции, надо зарегистрироваться: <a href="https://developer.worldweatheronline.com/auth/register">https://developer.worldweatheronline.com/auth/register</a></li>
