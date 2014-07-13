@@ -77,6 +77,7 @@ require_once 'core.inc.php';
             <li>
                 <a href="#">jQuery</a>
                 <ul>
+                    <li><a href="jQueryRequestToServer.php">Запрос на jQuery</a></li>
                     <li><a href="examples_jquery.php">Примеры</a></li>
                     <li><a href="Alex_jquery.php">Уроки от Alex'а</a></li>
                 </ul>
@@ -90,6 +91,7 @@ require_once 'core.inc.php';
     <li>
         <a href="#">Английский</a>
         <ul>
+            <li><a href="basicEnglish.php">Базовый английский</a></li>
             <li><a href="EnglishExpressions.php">Английские выражения</a></li>
             <li><a href="AssimilEasyEnglish.php">Английский (Assimil)</a></li>
             <li><a href="YanaGrausova.php">Ссылки на видео Яны Граусовой</a></li>
